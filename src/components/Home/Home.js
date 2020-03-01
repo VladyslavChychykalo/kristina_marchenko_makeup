@@ -33,13 +33,6 @@ export default class Home extends Component {
     console.log(this.state);
     console.log(image);
     return (
-      // <ul className={homeWrapper}>
-      //   {gallery.map(el => (
-      //     <li>
-      //       <img src={el} alt="image_makeup" />
-      //     </li>
-      //   ))}
-      // </ul>
       <div className={homeWrapper}>
         <img src={image} alt="random_image" />
       </div>
