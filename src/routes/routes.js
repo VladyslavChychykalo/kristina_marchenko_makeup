@@ -1,4 +1,5 @@
 import HomePage from "../pages/HomePage/HomePage";
+import PortfolioPage from "../pages/PortfolioPage/PortfolioPage";
 import ServicesPage from "../pages/ServicesPage/ServicesPage";
 import CoursesPage from "../pages/CoursesPage/CoursesPage";
 import ContactsPage from "../pages/ContactsPage/ContactPage";
@@ -12,6 +13,10 @@ export default {
   HOME_PAGE: {
     path: "/home",
     component: HomePage
+  },
+  PORTFOLIO_PAGE: {
+    path: "/portfolio",
+    component: PortfolioPage
   },
   SERVICES_PAGE: {
     path: "/services",

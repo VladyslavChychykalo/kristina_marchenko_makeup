@@ -7,7 +7,7 @@ import { ReactComponent as Facebook } from "../../assets/svg/facebookIcon.svg";
 const Contacts = () => (
   <div className={contactsWrapper}>
     <p className={info}>
-      Контактный номер: <a href="tel:+30970003090">(097)000-30-90</a>
+      Контактный номер: <a href="tel:+380970003090">(097)000-30-90</a>
     </p>
     <p className={info}>Почта: 309072@gmail.com</p>
     <p className={info}>

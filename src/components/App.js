@@ -34,6 +34,10 @@ export default class App extends Component {
             component={routes.HOME_PAGE.component}
           />
           <Route
+            path={routes.PORTFOLIO_PAGE.path}
+            component={routes.PORTFOLIO_PAGE.component}
+          />
+          <Route
             path={routes.SERVICES_PAGE.path}
             component={routes.SERVICES_PAGE.component}
           />

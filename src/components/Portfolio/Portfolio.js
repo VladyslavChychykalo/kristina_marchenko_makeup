@@ -1,18 +1,12 @@
 import React from "react";
-
-const portfolio = [
-  { id: 1, src: "../../assets", alt: "image makeup" },
-  { id: 2, src: "../../assets", alt: "image makeup" },
-  { id: 3, src: "../../assets", alt: "image makeup" },
-  { id: 4, src: "../../assets", alt: "image makeup" },
-  { id: 5, src: "../../assets", alt: "image makeup" }
-];
+import gallery from "./gallery/gallery";
+import { portfolioWrapper } from "./Portfolio.module.css";
 
 const Portfolio = () => (
-  <ul className="portfolioGallery">
-    {portfolio.map(({ id, src, alt }) => (
-      <li key={id}>
-        <img src={src} alt={alt} />
+  <ul className={portfolioWrapper}>
+    {gallery.map(el => (
+      <li>
+        <img src={el} alt="image_makeup" />
       </li>
     ))}
   </ul>

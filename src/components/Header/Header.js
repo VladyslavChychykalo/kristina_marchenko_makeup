@@ -4,7 +4,7 @@ import { navWrapper, nav } from "./Header.module.css";
 
 const navLinks = [
   { id: 1, tytle: "Главная", path: "/home" },
-  // { id: 2, tytle: "Портфолио", path: "/portfolio" },
+  { id: 2, tytle: "Портфолио", path: "/portfolio" },
   { id: 3, tytle: "Услуги", path: "/services" },
   { id: 4, tytle: "Обучение", path: "/education" },
   { id: 5, tytle: "Контакты", path: "/contacts" }

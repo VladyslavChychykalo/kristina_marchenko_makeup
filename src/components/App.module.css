@@ -27,14 +27,14 @@
 }
 
 .enterActive {
-  height: 210px;
+  height: 260px;
   opacity: 1;
   /* transform: translateX(0); */
   transition: height 1000ms ease-in-out, opacity 1000ms ease-in-out;
 }
 
 .exit {
-  height: 210px;
+  height: 260px;
   opacity: 1;
   /* transform: translateX(0); */
 }
