@@ -1,0 +1,47 @@
+/* .enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 500ms ease-in-out, transform 200ms ease-in-out;
+} */
+
+.enter {
+  height: 0;
+  opacity: 0;
+  /* transform: translateX(-100%); */
+}
+
+.enterActive {
+  height: 210px;
+  opacity: 1;
+  /* transform: translateX(0); */
+  transition: height 1000ms ease-in-out, opacity 1000ms ease-in-out;
+}
+
+.exit {
+  height: 210px;
+  opacity: 1;
+  /* transform: translateX(0); */
+}
+
+.exitActive {
+  height: 0;
+  opacity: 0;
+  /* transform: translateX(-100%); */
+  transition: height 1000ms ease-in-out, opacity 1000ms ease-in-out;
+}

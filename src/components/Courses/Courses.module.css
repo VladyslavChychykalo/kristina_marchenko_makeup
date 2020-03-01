@@ -1,0 +1,48 @@
+.coursesWrapper {
+  padding: 15px;
+  list-style: none;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coursesWrapper li {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.coursesWrapper div {
+  background-color: rgba(150, 150, 150, 0.62);
+  min-width: 95%;
+  padding: 20px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coursesWrapper li img {
+  max-width: 100%;
+}
+
+.coursesWrapper li h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.coursesWrapper li button {
+  border: 1px #000 solid;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: transparent;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
