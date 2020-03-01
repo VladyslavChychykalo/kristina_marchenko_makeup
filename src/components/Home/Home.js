@@ -9,7 +9,7 @@ export default class Home extends Component {
 
   componentDidMount() {
     this.updateImage();
-    this.interval = setInterval(this.updateImage, 3000);
+    this.interval = setInterval(this.updateImage, 5000);
     console.log(this.interval);
   }
 
