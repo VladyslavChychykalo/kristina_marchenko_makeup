@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import Header from "./Header/Header";
 import ToggleMenu from "./ToggleMenu/ToggleMenu";
 import routes from "../routes/routes";
-import menuTransition from "./App.module.css";
+import slideMenuTransition from "../stylesheet/transitions/slideMenu.module.css";
 import { CSSTransition } from "react-transition-group";
 
 export default class App extends Component {
@@ -22,7 +22,7 @@ export default class App extends Component {
         <CSSTransition
           in={isOpen}
           timeout={1000}
-          classNames={menuTransition}
+          classNames={slideMenuTransition}
           unmountOnExit
         >
           <Header onToggle={this.toggleMenu} />
