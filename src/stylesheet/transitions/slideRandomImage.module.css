@@ -1,12 +1,13 @@
 .enter {
   opacity: 0;
+  /* overflow: hidden; */
   transform: translateX(-100%);
 }
 
 .enterActive {
   opacity: 1;
   transform: translateX(0);
-  transition: opacity 4000ms ease-in-out, transform 4000ms ease-in-out;
+  transition: opacity 1000ms ease-in-out, transform 1000ms ease-in-out;
 }
 
 .exit {
@@ -16,6 +17,7 @@
 
 .exitActive {
   opacity: 0;
-  transform: translateX(-100%);
-  transition: opacity 4000ms ease-in-out, transform 4000ms ease-in-out;
+  /* overflow: hidden; */
+  transform: translateX(100%);
+  transition: opacity 1000ms ease-in-out, transform 1000ms ease-in-out;
 }
