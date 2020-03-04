@@ -62,8 +62,9 @@
 // }
 
 import React, { Component } from "react";
-import { homeWrapper } from "./Home.module.css";
+import { imageCard, homeWrapper } from "./Home.module.css";
 import gallery from "./gallery/gallery";
+import ImageRandomCard from "./ImageRandomCard/ImageRandomCard";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import slideRandomTransaction from "../../stylesheet/transitions/slideRandomImage.module.css";
 
@@ -100,11 +101,18 @@ export default class Home extends Component {
     const { index } = this.state;
     console.log(index);
     return (
-      <CSSTransition timeout={1000} classNames={slideRandomTransaction}>
-        <div className={homeWrapper}>
-          <img src={gallery[index]} alt="random_image" />
-        </div>
-      </CSSTransition>
+      <TransitionGroup className={homeWrapper}>
+        <CSSTransition
+          key={gallery[index]}
+          timeout={2000}
+          classNames={slideRandomTransaction}
+        >
+          <div className={imageCard}>
+            <img src={gallery[index]} alt="" />
+          </div>
+        </CSSTransition>
+        {/* <ImageRandomCard galleryItem={gallery[index]} /> */}
+      </TransitionGroup>
     );
   }
 }
