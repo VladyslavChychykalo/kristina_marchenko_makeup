@@ -1,6 +1,4 @@
 .homeWrapper {
-  /* padding: 15px; */
-  /* position: absolute; */
   list-style: none;
   max-width: 100%;
 }
@@ -8,7 +6,6 @@
 .homeWrapper img {
   max-width: calc(100%);
   display: block;
-  /* margin-top: 20px; */
 }
 
 .imageCard {

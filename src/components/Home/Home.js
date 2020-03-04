@@ -100,7 +100,7 @@ export default class Home extends Component {
     const { index } = this.state;
     console.log(index);
     return (
-      <TransitionGroup component="div" className={homeWrapper}>
+      <TransitionGroup className={homeWrapper}>
         <CSSTransition
           key={gallery[index]}
           timeout={2000}

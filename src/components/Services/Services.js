@@ -1,5 +1,9 @@
 import React from "react";
-import { servicesWrapper, servicesList } from "./Services.module.css";
+import {
+  additionalInfo,
+  servicesWrapper,
+  servicesList
+} from "./Services.module.css";
 
 const services = [
   { id: 1, service: "Макияж", price: "1000₴" },
@@ -22,7 +26,7 @@ const Services = () => (
         </li>
       ))}
     </ul>
-    <p>Цена указана без выезда</p>
+    <p className={additionalInfo}>Цена указана без выезда</p>
   </div>
 );
 
