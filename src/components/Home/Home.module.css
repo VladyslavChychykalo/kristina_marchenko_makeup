@@ -5,6 +5,7 @@
 
 .homeWrapper img {
   max-width: calc(100%);
+  min-height: 100vh;
   display: block;
 }
 
