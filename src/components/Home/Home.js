@@ -64,7 +64,6 @@
 import React, { Component } from "react";
 import { imageCard, homeWrapper } from "./Home.module.css";
 import gallery from "./gallery/gallery";
-import ImageRandomCard from "./ImageRandomCard/ImageRandomCard";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import slideRandomTransaction from "../../stylesheet/transitions/slideRandomImage.module.css";
 
@@ -73,7 +72,7 @@ export default class Home extends Component {
 
   componentDidMount() {
     this.nextImage();
-    this.interval = setInterval(this.nextImage, 4000);
+    this.interval = setInterval(this.nextImage, 10000);
     console.log(this.interval);
     console.log("cdm");
   }
@@ -106,12 +105,12 @@ export default class Home extends Component {
           key={gallery[index]}
           timeout={2000}
           classNames={slideRandomTransaction}
+          unmountOnExit
         >
           <div className={imageCard}>
             <img src={gallery[index]} alt="" />
           </div>
         </CSSTransition>
-        {/* <ImageRandomCard galleryItem={gallery[index]} /> */}
       </TransitionGroup>
     );
   }
