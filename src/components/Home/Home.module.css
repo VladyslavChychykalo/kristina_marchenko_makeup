@@ -2,7 +2,6 @@
   list-style: none;
   max-width: 100%;
   /* min-height: 100vh; */
-  overflow: hidden;
 }
 
 .homeWrapper img {
@@ -22,7 +21,6 @@
 }
 
 .backGround {
-  overflow: hidden;
   position: absolute;
   width: 100%;
   min-height: 100vh;
