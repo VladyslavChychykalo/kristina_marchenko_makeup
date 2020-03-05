@@ -5,7 +5,7 @@ import ToggleMenu from "./ToggleMenu/ToggleMenu";
 import routes from "../routes/routes";
 import slideMenuTransition from "../stylesheet/transitions/slideMenu.module.css";
 import { CSSTransition } from "react-transition-group";
-import { container } from "./App.module.css";
+import { homePage, container } from "./App.module.css";
 
 export default class App extends Component {
   state = { isOpen: false };
@@ -32,6 +32,7 @@ export default class App extends Component {
           <ToggleMenu onToggle={this.toggleMenu} />
           <Switch>
             <Route
+              className={homePage}
               path={routes.HOME_PAGE.path}
               component={routes.HOME_PAGE.component}
             />
