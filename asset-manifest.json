@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kristina_marchenko_makeup/static/css/main.ce5a393f.chunk.css",
+    "main.css": "/kristina_marchenko_makeup/static/css/main.1da333ca.chunk.css",
     "main.js": "/kristina_marchenko_makeup/static/js/main.e6d40140.chunk.js",
     "main.js.map": "/kristina_marchenko_makeup/static/js/main.e6d40140.chunk.js.map",
     "runtime-main.js": "/kristina_marchenko_makeup/static/js/runtime-main.5dd28be5.js",
@@ -8,9 +8,9 @@
     "static/js/2.c2aafd43.chunk.js": "/kristina_marchenko_makeup/static/js/2.c2aafd43.chunk.js",
     "static/js/2.c2aafd43.chunk.js.map": "/kristina_marchenko_makeup/static/js/2.c2aafd43.chunk.js.map",
     "index.html": "/kristina_marchenko_makeup/index.html",
-    "precache-manifest.141151bb820007449fb1d8ef675c0015.js": "/kristina_marchenko_makeup/precache-manifest.141151bb820007449fb1d8ef675c0015.js",
+    "precache-manifest.5b09b54e77d5ee270b9b60e80363daa9.js": "/kristina_marchenko_makeup/precache-manifest.5b09b54e77d5ee270b9b60e80363daa9.js",
     "service-worker.js": "/kristina_marchenko_makeup/service-worker.js",
-    "static/css/main.ce5a393f.chunk.css.map": "/kristina_marchenko_makeup/static/css/main.ce5a393f.chunk.css.map",
+    "static/css/main.1da333ca.chunk.css.map": "/kristina_marchenko_makeup/static/css/main.1da333ca.chunk.css.map",
     "static/js/2.c2aafd43.chunk.js.LICENSE.txt": "/kristina_marchenko_makeup/static/js/2.c2aafd43.chunk.js.LICENSE.txt",
     "static/media/facebookIcon.b4aafdf5.svg": "/kristina_marchenko_makeup/static/media/facebookIcon.b4aafdf5.svg",
     "static/media/instagramIcon.98e1a9bd.svg": "/kristina_marchenko_makeup/static/media/instagramIcon.98e1a9bd.svg",
@@ -63,7 +63,7 @@
   "entrypoints": [
     "static/js/runtime-main.5dd28be5.js",
     "static/js/2.c2aafd43.chunk.js",
-    "static/css/main.ce5a393f.chunk.css",
+    "static/css/main.1da333ca.chunk.css",
     "static/js/main.e6d40140.chunk.js"
   ]
 }
