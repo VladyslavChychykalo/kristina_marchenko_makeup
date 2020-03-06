@@ -11,8 +11,8 @@
 }
 
 .imageCard {
-  /* display: block;
-  min-height: 100vh; */
+  display: block;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
