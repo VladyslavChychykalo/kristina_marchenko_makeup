@@ -1,0 +1,17 @@
+.buttonUpWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.buttonUpWrapper p {
+  color: #ffffff;
+  font-size: 50px;
+}
