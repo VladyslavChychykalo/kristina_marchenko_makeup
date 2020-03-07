@@ -1,12 +1,12 @@
 .homeWrapper {
   list-style: none;
   max-width: 100%;
-  /* height: auto; */
+  height: auto;
 }
 
 .homeWrapper img {
   max-width: calc(100%);
-  min-height: calc(100vh - 20px);
+  min-height: 80vh;
   display: block;
 }
 
@@ -20,8 +20,8 @@
 
 .backGround {
   position: absolute;
-  min-width: 100%;
-  min-height: calc(100vh - 20px);
+  width: 100%;
+  min-height: 80vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
   top: 0;
