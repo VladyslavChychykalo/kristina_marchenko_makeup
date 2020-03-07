@@ -5,7 +5,7 @@ import gallery from "./gallery/gallery";
 import { portfolioWrapper } from "./Portfolio.module.css";
 import fadeButtonUpTransition from "../../stylesheet/transitions/fadeButtonUp.module.css";
 
-export default class Portfolio extends Component {
+class Portfolio extends Component {
   state = { isAppear: false };
 
   componentDidMount() {
@@ -22,6 +22,13 @@ export default class Portfolio extends Component {
     } else {
       this.setState({ isAppear: false });
     }
+  };
+
+  scrollOnTop = () => {
+    window.scrollTo({
+      top: document.documentElement.clientTop,
+      behavior: "smooth"
+    });
   };
 
   render() {
@@ -41,9 +48,11 @@ export default class Portfolio extends Component {
           classNames={fadeButtonUpTransition}
           unmountOnExit
         >
-          <ButtonUp />
+          <ButtonUp onTop={this.scrollOnTop} />
         </CSSTransition>
       </>
     );
   }
 }
+
+export default Portfolio;
