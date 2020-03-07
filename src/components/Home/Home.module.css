@@ -1,12 +1,13 @@
 .homeWrapper {
   list-style: none;
   max-width: 100%;
-  /* min-height: 100vh; */
+  height: auto;
 }
 
 .homeWrapper img {
   max-width: calc(100%);
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: auto;
   display: block;
 }
 
