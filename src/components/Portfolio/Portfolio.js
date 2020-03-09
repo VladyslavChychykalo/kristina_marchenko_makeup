@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { CSSTransition } from "react-transition-group";
 import ButtonUp from "../ButtonUp/ButtonUp";
+import ModalForPhoto from "../ModalForPhoto/ModalForPhoto";
 import gallery from "./gallery/gallery";
 import { portfolioWrapper } from "./Portfolio.module.css";
 import fadeButtonUpTransition from "../../stylesheet/transitions/fadeButtonUp.module.css";
 
 class Portfolio extends Component {
-  state = { isAppear: false };
+  state = { isAppear: false, isOpen: false };
 
   componentDidMount() {
     window.addEventListener("scroll", this.listenScrollEvent);
@@ -31,14 +32,20 @@ class Portfolio extends Component {
     });
   };
 
+  toggleModal = () => {
+    this.setState(state => ({
+      isOpen: !state.isOpen
+    }));
+  };
+
   render() {
-    const { isAppear } = this.state;
+    const { isAppear, isOpen } = this.state;
     return (
       <>
         <ul className={portfolioWrapper}>
           {gallery.map(el => (
-            <li>
-              <img src={el} alt="image_makeup" />
+            <li key={el}>
+              <img onClick={this.toggleModal} src={el} alt="image_makeup" />
             </li>
           ))}
         </ul>
@@ -50,6 +57,7 @@ class Portfolio extends Component {
         >
           <ButtonUp onTop={this.scrollOnTop} />
         </CSSTransition>
+        {isOpen && <ModalForPhoto onClose={this.toggleModal} />}
       </>
     );
   }
