@@ -8,7 +8,8 @@ export default class PhotoCard extends Component {
 
   toggleModal = () => {
     this.setState(state => ({
-      isOpen: !state.isOpen
+      isOpen: !state.isOpen,
+      index: this.takeValue()
     }));
   };
 
@@ -19,7 +20,12 @@ export default class PhotoCard extends Component {
     });
   };
 
-  saveValue = e => {};
+  takeValue = () => {
+    const { link } = this.props;
+    const value = gallery.filter(el => link === el);
+    const indexOfItem = gallery.indexOf(value[0]);
+    return indexOfItem;
+  };
 
   render() {
     const { isOpen, index } = this.state;
@@ -36,7 +42,7 @@ export default class PhotoCard extends Component {
           <ModalForPhoto
             index={index}
             onChangeImage={this.handleChangeValue}
-            linkLarge={link}
+            // linkLarge={link}
             onClose={this.toggleModal}
           />
         )}

@@ -39,7 +39,6 @@ class Modal extends Component {
 
   render() {
     const { index, linkLarge } = this.props;
-    console.log(linkLarge);
     return (
       <div
         className={styles.overlay}
@@ -51,8 +50,8 @@ class Modal extends Component {
       >
         <div className={styles.modal}>
           <img
-            src={linkLarge}
-            // src={gallery[index]}
+            // src={linkLarge}
+            src={gallery[index]}
             alt="image_makeup"
           />
           <div className={styles.bntsNavigation}>
