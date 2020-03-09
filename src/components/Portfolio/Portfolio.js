@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { CSSTransition } from "react-transition-group";
 import ButtonUp from "../ButtonUp/ButtonUp";
+import PhotoCard from "./PhotoCard/PhotoCard";
 import ModalForPhoto from "../ModalForPhoto/ModalForPhoto";
 import gallery from "./gallery/gallery";
 import { portfolioWrapper } from "./Portfolio.module.css";
@@ -45,7 +46,7 @@ class Portfolio extends Component {
         <ul className={portfolioWrapper}>
           {gallery.map(el => (
             <li key={el}>
-              <img onClick={this.toggleModal} src={el} alt="image_makeup" />
+              <PhotoCard key={el} link={el} />
             </li>
           ))}
         </ul>
