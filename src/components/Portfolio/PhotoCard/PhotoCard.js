@@ -30,6 +30,7 @@ export default class PhotoCard extends Component {
   render() {
     const { isOpen, index } = this.state;
     const { link } = this.props;
+
     return (
       <>
         <img
@@ -42,7 +43,6 @@ export default class PhotoCard extends Component {
           <ModalForPhoto
             index={index}
             onChangeImage={this.handleChangeValue}
-            // linkLarge={link}
             onClose={this.toggleModal}
           />
         )}

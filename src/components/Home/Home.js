@@ -99,6 +99,7 @@ export default class Home extends Component {
   render() {
     const { index } = this.state;
     console.log(index);
+
     return (
       <>
         <div className={backGround}></div>

@@ -7,8 +7,7 @@ class Modal extends Component {
   backdropRef = createRef();
 
   static propTypes = {
-    onClose: PropTypes.func.isRequired,
-    linkLarge: PropTypes.string.isRequired
+    onClose: PropTypes.func.isRequired
   };
 
   componentDidMount() {
@@ -38,7 +37,7 @@ class Modal extends Component {
   };
 
   render() {
-    const { index, linkLarge } = this.props;
+    const { index } = this.props;
     return (
       <div
         className={styles.overlay}
@@ -49,11 +48,7 @@ class Modal extends Component {
         onKeyPress={() => {}}
       >
         <div className={styles.modal}>
-          <img
-            // src={linkLarge}
-            src={gallery[index]}
-            alt="image_makeup"
-          />
+          <img src={gallery[index]} alt="image_makeup" />
           <div className={styles.bntsNavigation}>
             <button
               onClick={({ target }) => this.handleTakeValue(target)}
