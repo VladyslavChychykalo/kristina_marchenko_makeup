@@ -1,6 +1,7 @@
 import React, { Component, createRef } from "react";
 import PropTypes from "prop-types";
 import styles from "./ModalForPhoto.module.css";
+import gallery from "../Portfolio/gallery/gallery";
 
 class Modal extends Component {
   backdropRef = createRef();
@@ -32,8 +33,12 @@ class Modal extends Component {
     this.props.onClose();
   };
 
+  handleTakeValue = target => {
+    this.props.onChangeImage(target);
+  };
+
   render() {
-    const { linkLarge } = this.props;
+    const { index, linkLarge } = this.props;
     console.log(linkLarge);
     return (
       <div
@@ -45,7 +50,29 @@ class Modal extends Component {
         onKeyPress={() => {}}
       >
         <div className={styles.modal}>
-          <img src={linkLarge} alt="" />
+          <img
+            src={linkLarge}
+            // src={gallery[index]}
+            alt="image_makeup"
+          />
+          <div className={styles.bntsNavigation}>
+            <button
+              onClick={({ target }) => this.handleTakeValue(target)}
+              name="left"
+              type="button"
+              disabled={!index}
+            >
+              &#x2190;
+            </button>
+            <button
+              onClick={({ target }) => this.handleTakeValue(target)}
+              name="right"
+              type="button"
+              disabled={index >= gallery.length - 1}
+            >
+              &#x2192;
+            </button>
+          </div>
         </div>
       </div>
     );
