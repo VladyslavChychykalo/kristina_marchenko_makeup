@@ -57,8 +57,7 @@ class Modal extends Component {
               type="button"
               disabled={!index}
             >
-              ➤{/* &#11164; */}
-              {/* <i className={styles.leftArrow}></i> */}
+              ➤
             </button>
             <button
               name="right"
@@ -66,8 +65,7 @@ class Modal extends Component {
               type="button"
               disabled={index >= gallery.length - 1}
             >
-              ➤{/* &#11166; */}
-              {/* <i className={styles.rightArrow}></i> */}
+              ➤
             </button>
           </div>
         </div>
