@@ -33,6 +33,7 @@ class Modal extends Component {
   };
 
   handleTakeValue = target => {
+    console.log(target);
     this.props.onChangeImage(target);
   };
 
@@ -51,20 +52,22 @@ class Modal extends Component {
           <img src={gallery[index]} alt="image_makeup" />
           <div className={styles.bntsNavigation}>
             <button
-              onClick={({ target }) => this.handleTakeValue(target)}
               name="left"
+              onClick={({ target }) => this.handleTakeValue(target)}
               type="button"
               disabled={!index}
             >
-              <i className={styles.leftArrow}></i>
+              &#11164;
+              {/* <i className={styles.leftArrow}></i> */}
             </button>
             <button
-              onClick={({ target }) => this.handleTakeValue(target)}
               name="right"
+              onClick={({ target }) => this.handleTakeValue(target)}
               type="button"
               disabled={index >= gallery.length - 1}
             >
-              <i className={styles.rightArrow}></i>
+              &#11166;
+              {/* <i className={styles.rightArrow}></i> */}
             </button>
           </div>
         </div>

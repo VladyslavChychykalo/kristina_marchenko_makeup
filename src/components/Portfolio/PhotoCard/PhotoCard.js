@@ -15,6 +15,8 @@ export default class PhotoCard extends Component {
 
   handleChangeValue = target => {
     const { index } = this.state;
+    console.log(target.name);
+    console.log(index);
     this.setState({
       index: target.name === "right" ? index + 1 : index - 1
     });
