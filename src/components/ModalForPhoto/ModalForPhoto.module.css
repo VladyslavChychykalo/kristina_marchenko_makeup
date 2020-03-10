@@ -36,19 +36,23 @@
 .bntsNavigation button {
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 30px;
   padding: 20px;
 }
 
-.bntsNavigation i {
+/* .bntsNavigation i {
   border: solid #fff;
   border-width: 0 5px 5px 0;
   display: inline-block;
   padding: 5px;
+} */
+
+button:nth-child(1) {
+  transform: rotate(180deg);
 }
 
-.leftArrow {
+/* .leftArrow {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
@@ -56,4 +60,4 @@
 .rightArrow {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-}
+} */
