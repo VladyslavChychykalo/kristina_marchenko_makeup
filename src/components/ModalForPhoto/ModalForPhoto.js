@@ -56,7 +56,7 @@ class Modal extends Component {
               type="button"
               disabled={!index}
             >
-              &#x2190;
+              ◀
             </button>
             <button
               onClick={({ target }) => this.handleTakeValue(target)}
@@ -64,7 +64,7 @@ class Modal extends Component {
               type="button"
               disabled={index >= gallery.length - 1}
             >
-              &#x2192;
+              ▶
             </button>
           </div>
         </div>
