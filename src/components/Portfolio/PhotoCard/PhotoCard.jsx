@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ModalForPhoto from "../../ModalForPhoto/ModalForPhoto";
 import { imageCard } from "./PhotoCard.module.css";
-import gallery from "../../Portfolio/gallery/gallery";
+import gallery from "../gallery/gallery";
 
 export default class PhotoCard extends Component {
   state = { isOpen: false, index: 0 };

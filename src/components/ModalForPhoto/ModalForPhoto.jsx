@@ -54,6 +54,7 @@ class Modal extends Component {
             <button
               name="left"
               onClick={({ target }) => this.handleTakeValue(target)}
+              // onKeyPress={}
               type="button"
               disabled={!index}
             >
