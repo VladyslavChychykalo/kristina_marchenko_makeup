@@ -72,9 +72,7 @@ export default class Home extends Component {
 
   componentDidMount() {
     this.nextImage();
-    this.interval = setInterval(this.nextImage, 10000);
-    console.log(this.interval);
-    console.log("cdm");
+    this.interval = setInterval(this.nextImage, 5000);
   }
 
   componentWillUnmount() {
@@ -82,7 +80,6 @@ export default class Home extends Component {
   }
 
   nextImage = () => {
-    console.log("func");
     const { index } = this.state;
 
     if (gallery.length - 1 === index) {
@@ -98,8 +95,6 @@ export default class Home extends Component {
 
   render() {
     const { index } = this.state;
-    console.log(index);
-
     return (
       <>
         <div className={backGround}></div>
