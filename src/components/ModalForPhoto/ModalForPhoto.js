@@ -56,7 +56,7 @@ class Modal extends Component {
               type="button"
               disabled={!index}
             >
-              ◀
+              <i className={styles.leftArrow}></i>
             </button>
             <button
               onClick={({ target }) => this.handleTakeValue(target)}
@@ -64,7 +64,7 @@ class Modal extends Component {
               type="button"
               disabled={index >= gallery.length - 1}
             >
-              ▶
+              <i className={styles.rightArrow}></i>
             </button>
           </div>
         </div>
