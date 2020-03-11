@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kristina_marchenko_makeup/precache-manifest.96df01991527a82ebcf7c1af71f211ad.js"
+  "/kristina_marchenko_makeup/precache-manifest.474a763536fee5bdeea5889ba9b0d989.js"
 );
 
 self.addEventListener('message', (event) => {
