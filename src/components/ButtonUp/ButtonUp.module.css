@@ -15,3 +15,16 @@
   color: #ffffff;
   font-size: 50px;
 }
+
+@media (min-width: 768px) {
+  .buttonUpWrapper {
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .buttonUpWrapper p {
+    font-size: 70px;
+  }
+}

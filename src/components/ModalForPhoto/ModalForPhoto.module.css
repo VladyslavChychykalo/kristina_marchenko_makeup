@@ -44,3 +44,15 @@
 .bntsNavigation button:first-child {
   transform: rotate(180deg);
 }
+
+@media (min-width: 768px) {
+  .modal img {
+    max-height: 900px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modal img {
+    max-height: 1200px;
+  }
+}

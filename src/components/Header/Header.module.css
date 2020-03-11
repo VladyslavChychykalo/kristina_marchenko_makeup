@@ -19,3 +19,14 @@
   line-height: 52px;
   font-family: "HelveticaNeueCyr";
 }
+
+@media (min-width: 768px) {
+  .navWrapper {
+    height: 400px;
+  }
+
+  .nav {
+    font-size: 30px;
+    line-height: 80px;
+  }
+}
