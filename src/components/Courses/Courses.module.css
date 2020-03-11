@@ -46,3 +46,37 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+  .coursesWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .coursesWrapper li h4 {
+    font-size: 22px;
+  }
+
+  .coursesWrapper li p {
+    font-size: 20px;
+  }
+
+  .coursesWrapper li button {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .coursesWrapper li h4 {
+    font-size: 30px;
+  }
+
+  .coursesWrapper li p {
+    font-size: 26px;
+  }
+
+  .coursesWrapper li button {
+    font-size: 28px;
+  }
+}
