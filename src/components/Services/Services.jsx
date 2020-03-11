@@ -2,7 +2,8 @@ import React from "react";
 import {
   additionalInfo,
   servicesWrapper,
-  servicesList
+  servicesList,
+  info
 } from "./Services.module.css";
 
 const services = [
@@ -21,8 +22,8 @@ const Services = () => (
     <ul className={servicesList}>
       {services.map(({ id, service, price }) => (
         <li key={id}>
-          <p>{service}</p>
-          <p>{price}</p>
+          <p className={info}>{service}</p>
+          <p className={info}>{price}</p>
         </li>
       ))}
     </ul>

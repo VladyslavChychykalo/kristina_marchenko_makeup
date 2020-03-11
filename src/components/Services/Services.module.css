@@ -16,3 +16,25 @@
   color: #fff;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .info,
+  .additionalInfo {
+    font-size: 28px;
+  }
+
+  .additionalInfo {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .info,
+  .additionalInfo {
+    font-size: 32px;
+  }
+
+  .additionalInfo {
+    margin-top: 100px;
+  }
+}

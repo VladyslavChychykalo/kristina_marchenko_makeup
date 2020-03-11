@@ -6,6 +6,11 @@
   padding: 30px 15px;
 }
 
+.socialLink {
+  width: 35px;
+  height: 35px;
+}
+
 .link {
   fill: #fff;
   transition: fill 500ms;
@@ -31,7 +36,36 @@
   text-align: center;
 }
 
-.map {
+.mapWrapper {
+  margin-top: 50px;
   width: 100vw;
-  /* height: 100vh; */
+}
+
+.map {
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  .info {
+    font-size: 28px;
+  }
+
+  .socialLink {
+    width: 70px;
+    height: 70px;
+  }
+
+  .map {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .info {
+    font-size: 32px;
+  }
+
+  .map {
+    height: 800px;
+  }
 }

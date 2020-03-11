@@ -2,3 +2,11 @@
   padding: 15px;
   list-style: none;
 }
+
+@media (min-width: 768px) {
+  .portfolioWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+}

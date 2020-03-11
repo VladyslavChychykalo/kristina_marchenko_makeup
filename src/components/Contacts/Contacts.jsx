@@ -1,6 +1,13 @@
 import React from "react";
 import WrappedMap from "./Map/Map";
-import { map, info, contactsWrapper, link } from "./Contacts.module.css";
+import {
+  socialLink,
+  mapWrapper,
+  map,
+  info,
+  contactsWrapper,
+  link
+} from "./Contacts.module.css";
 import { ReactComponent as Instagram } from "../../assets/svg/instagramIcon.svg";
 import { ReactComponent as Facebook } from "../../assets/svg/facebookIcon.svg";
 
@@ -16,19 +23,19 @@ const Contacts = () => (
     </p>
     <div>
       <a className={link} href="https://www.instagram.com/kristina_makeups/">
-        <Instagram width="35px" height="35px" />
+        <Instagram className={socialLink} />
       </a>
       <a className={link} href="https://www.facebook.com/sizenka">
-        <Facebook width="35px" height="35px" />
+        <Facebook className={socialLink} />
       </a>
     </div>
-    <div className={map}>
+    <div className={mapWrapper}>
       <WrappedMap
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyCVwLxr93PoHBzTHHtifMaDRfVMME7y0eo&v=3.exp&libraries=geometry,drawing,places`}
         // googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyCVwLxr93PoHBzTHHtifMaDRfVMME7y0eo&v=3.exp&libraries=geometry,drawing,places`}
         // googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_KEY}&v=3.exp&libraries=geometry,drawing,places`}
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `400px` }} />}
+        containerElement={<div className={map} />}
         mapElement={<div style={{ height: `100%` }} />}
       />
     </div>
