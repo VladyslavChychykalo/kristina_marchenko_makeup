@@ -12,10 +12,12 @@ class Modal extends Component {
 
   componentDidMount() {
     window.addEventListener("keydown", this.handleKeyPress);
+    // window.addEventListener("keypress", this.handleTakeValue);
   }
 
   componentWillUnmount() {
     window.removeEventListener("keydown", this.handleKeyPress);
+    // window.removeEventListener("keypress", this.handleTakeValue);
   }
 
   handleKeyPress = e => {
@@ -33,9 +35,16 @@ class Modal extends Component {
   };
 
   handleTakeValue = target => {
-    console.log(target);
     this.props.onChangeImage(target);
   };
+
+  // handleTakeValue = e => {
+  //   if (e.code === "38" && e.code === "39") {
+  //     this.props.onChangeImage(e.target);
+  //   }
+
+  //   this.props.onChangeImage(e.target);
+  // };
 
   render() {
     const { index } = this.props;
