@@ -29,9 +29,12 @@ export default class App extends Component {
 
   render() {
     const { isOpen, isLoading } = this.state;
+    if (isLoading) {
+      return <Loader />;
+    }
+
     return (
       <>
-        {isLoading && Loader}
         <CSSTransition
           in={isOpen}
           timeout={1000}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Loader = () => (
   <div>
-    <p>Loader....</p>
+    <p style={{ color: "white" }}>Loading....</p>
   </div>
 );
 
