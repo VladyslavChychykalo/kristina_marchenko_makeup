@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
+import Loader from "../components/Loader/Loader";
 import Header from "./Header/Header";
 import ToggleMenu from "./ToggleMenu/ToggleMenu";
 import routes from "../routes/routes";
@@ -8,7 +9,11 @@ import { CSSTransition } from "react-transition-group";
 import { container } from "./App.module.css";
 
 export default class App extends Component {
-  state = { isOpen: false };
+  state = { isOpen: false, isLoading: true };
+
+  componentDidMount() {
+    this.onLoading();
+  }
 
   toggleMenu = () => {
     this.setState(state => ({
@@ -16,10 +21,17 @@ export default class App extends Component {
     }));
   };
 
+  onLoading = () => {
+    this.setState({
+      isLoading: false
+    });
+  };
+
   render() {
-    const { isOpen } = this.state;
+    const { isOpen, isLoading } = this.state;
     return (
       <>
+        {isLoading && Loader}
         <CSSTransition
           in={isOpen}
           timeout={1000}

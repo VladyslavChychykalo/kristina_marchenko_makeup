@@ -14,6 +14,7 @@
 .buttonUpWrapper p {
   color: #ffffff;
   font-size: 50px;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
