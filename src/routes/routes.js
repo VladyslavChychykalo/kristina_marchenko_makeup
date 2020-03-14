@@ -1,3 +1,5 @@
+import { lazy } from "react";
+
 import HomePage from "../pages/HomePage/HomePage";
 import PortfolioPage from "../pages/PortfolioPage/PortfolioPage";
 import ServicesPage from "../pages/ServicesPage/ServicesPage";
@@ -9,10 +11,22 @@ import HairstyleCoursePage from "../pages/CoursesPage/HairstyleCoursePage/Hairst
 import MakeUpForYourSelfPage from "../pages/CoursesPage/MakeUpForYourSelfPage/MakeUpForYourSelfPage";
 import RefresherCoursePage from "../pages/CoursesPage/RefresherCoursePage/RefresherCoursePage";
 
+const AsyncHomePage = lazy(() => import("../pages/HomePage/HomePage"));
+
+const AsyncCoursesPage = lazy(() =>
+  import(
+    "../pages/CoursesPage/CoursesPage" /* webpackChunkName: "courses-page" */
+  )
+);
+
+const AsyncContactPage = lazy(() =>
+  import("../pages/ContactsPage/ContactPage")
+);
+
 export default {
   HOME_PAGE: {
     path: "/home",
-    component: HomePage
+    component: AsyncHomePage
   },
   PORTFOLIO_PAGE: {
     path: "/portfolio",
@@ -24,7 +38,7 @@ export default {
   },
   COURSES_PAGE: {
     path: "/education",
-    component: CoursesPage
+    component: AsyncCoursesPage
   },
   BASIC_COURSE_PAGE: {
     path: "/education/basic_course",
@@ -48,6 +62,6 @@ export default {
   },
   CONTACTS_PAGE: {
     path: "/contacts",
-    component: ContactsPage
+    component: AsyncContactPage
   }
 };

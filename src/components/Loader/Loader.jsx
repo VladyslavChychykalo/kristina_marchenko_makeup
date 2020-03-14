@@ -1,9 +1,5 @@
 import React from "react";
 
-const Loader = () => (
-  <div>
-    <p style={{ color: "white" }}>Loading....</p>
-  </div>
-);
+const Loader = () => <div></div>;
 
 export default Loader;
