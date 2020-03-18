@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4f263e5af8e927b724e8a4415863d8f",
+    "revision": "7a5db4d766f719e90c89bea14743aa8b",
     "url": "/kristina_marchenko_makeup/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/3.5c65305b.chunk.css"
   },
   {
-    "revision": "3942024319365f91fc3e",
-    "url": "/kristina_marchenko_makeup/static/css/5.59f7d9c0.chunk.css"
+    "revision": "5a55904c4fe3cd200433",
+    "url": "/kristina_marchenko_makeup/static/css/5.f2798fdc.chunk.css"
   },
   {
     "revision": "2a45d3971054c939a1fd",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/9.781caa7e.chunk.css"
   },
   {
-    "revision": "3d7677b5f7f1fe68e419",
-    "url": "/kristina_marchenko_makeup/static/css/main.539f488a.chunk.css"
+    "revision": "0a41d4186ecb8101e15e",
+    "url": "/kristina_marchenko_makeup/static/css/main.3ddeb2c7.chunk.css"
   },
   {
     "revision": "a1bef40569063d5e6ad0",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/4.188aeffe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3942024319365f91fc3e",
+    "revision": "5a55904c4fe3cd200433",
     "url": "/kristina_marchenko_makeup/static/js/5.73cd8439.chunk.js"
   },
   {
@@ -104,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/9.9ea2cd4a.chunk.js"
   },
   {
-    "revision": "3d7677b5f7f1fe68e419",
+    "revision": "0a41d4186ecb8101e15e",
     "url": "/kristina_marchenko_makeup/static/js/main.3c7b9d45.chunk.js"
   },
   {
-    "revision": "3ef03d327514f163cc7b",
-    "url": "/kristina_marchenko_makeup/static/js/runtime-main.dc9f134a.js"
+    "revision": "6a91a964ebae104e7b25",
+    "url": "/kristina_marchenko_makeup/static/js/runtime-main.cdf73f80.js"
   },
   {
     "revision": "b4aafdf57548131d07b2f4a8178cb957",
