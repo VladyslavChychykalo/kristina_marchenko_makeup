@@ -34,6 +34,7 @@ class Portfolio extends Component {
 
   render() {
     const { isAppear } = this.state;
+
     return (
       <>
         <ul className={portfolioWrapper}>

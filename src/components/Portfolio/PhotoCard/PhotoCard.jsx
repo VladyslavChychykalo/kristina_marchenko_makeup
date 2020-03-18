@@ -29,8 +29,22 @@ export default class PhotoCard extends Component {
     return indexOfItem;
   };
 
-  render() {
+  openModalScreen = () => {
+    const windowWidth = document.documentElement.clientWidth;
     const { isOpen, index } = this.state;
+
+    if (windowWidth >= 768 && isOpen) {
+      return (
+        <ModalForPhoto
+          index={index}
+          onChangeImage={this.handleChangeValue}
+          onClose={this.toggleModal}
+        />
+      );
+    }
+  };
+
+  render() {
     const { link } = this.props;
 
     return (
@@ -41,13 +55,7 @@ export default class PhotoCard extends Component {
           src={link}
           alt="image_makeup"
         />
-        {isOpen && (
-          <ModalForPhoto
-            index={index}
-            onChangeImage={this.handleChangeValue}
-            onClose={this.toggleModal}
-          />
-        )}
+        {this.openModalScreen()}
       </>
     );
   }
