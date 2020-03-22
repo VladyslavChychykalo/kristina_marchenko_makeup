@@ -46,7 +46,15 @@ export default class Home extends Component {
             unmountOnExit
           >
             <div className={imageCard}>
-              <img src={gallery[index]} alt="" />
+              {/* <img src={gallery[index]} alt="" /> */}
+              <div
+                style={{
+                  backgroundImage: `url(${gallery[index]})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat"
+                }}
+              ></div>
             </div>
           </CSSTransition>
         </TransitionGroup>
