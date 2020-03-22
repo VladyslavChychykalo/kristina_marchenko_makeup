@@ -1,6 +1,6 @@
 .basicCourseWrapper {
   color: #fff;
-  padding: 0 15px;
+  padding: 0 15px 30px 15px;
 }
 
 .basicCourseWrapper h3 {
@@ -16,6 +16,11 @@
 
 .basicCourseWrapper ul {
   list-style: none;
+  padding-bottom: 30px;
+}
+
+.basicCourseWrapper ul li {
+  padding-bottom: 10px;
 }
 
 .basicCourseWrapper button {

@@ -16,6 +16,11 @@
 
 .refreshCourseWrapper ul {
   list-style: none;
+  padding-bottom: 30px;
+}
+
+.refreshCourseWrapper ul {
+  padding-bottom: 10px;
 }
 
 .refreshCourseWrapper button {

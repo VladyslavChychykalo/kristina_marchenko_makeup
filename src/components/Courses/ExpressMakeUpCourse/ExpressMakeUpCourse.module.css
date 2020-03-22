@@ -1,6 +1,6 @@
 .expressCourseWrapper {
   color: #fff;
-  padding: 0 15px;
+  padding: 0 15px 30px 15px;
 }
 
 .expressCourseWrapper h3 {
@@ -16,6 +16,11 @@
 
 .expressCourseWrapper ul {
   list-style: none;
+  padding-bottom: 30px;
+}
+
+.expressCourseWrapper ul li {
+  padding-bottom: 10px;
 }
 
 .expressCourseWrapper button {

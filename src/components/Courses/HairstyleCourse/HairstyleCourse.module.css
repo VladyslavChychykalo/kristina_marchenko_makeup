@@ -1,6 +1,6 @@
 .hairstyleCourseWrapper {
   color: #fff;
-  padding: 0 15px;
+  padding: 0 15px 30px 15px;
 }
 
 .hairstyleCourseWrapper h3 {
@@ -16,6 +16,11 @@
 
 .hairstyleCourseWrapper ul {
   list-style: none;
+  padding-bottom: 30px;
+}
+
+.hairstyleCourseWrapper ul li {
+  padding-bottom: 10px;
 }
 
 .hairstyleCourseWrapper button {
