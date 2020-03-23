@@ -36,6 +36,11 @@ class Modal extends Component {
 
   handleTakeValue = target => {
     this.props.onChangeImage(target);
+    // if (e.code === "37" && e.code === "39") {
+    //   this.props.onChangeImage(e.target);
+    // }
+
+    // this.props.onChangeImage(e.target);
   };
 
   // handleTakeValue = e => {
