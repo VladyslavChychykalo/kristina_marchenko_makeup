@@ -1,5 +1,6 @@
 import React from "react";
-import { basicCourseWrapper } from "./BasicCourse.module.css";
+import { basicCourseWrapper, signUpLink } from "./BasicCourse.module.css";
+import { Link } from "react-router-dom";
 
 const BasicCourse = () => (
   <div className={basicCourseWrapper}>
@@ -125,7 +126,9 @@ const BasicCourse = () => (
       того - сможете зарабатывать на любимой профессии!
     </p>
 
-    <button>Записаться на курс</button>
+    <Link className={signUpLink} to="/contacts">
+      <button>Записаться на курс</button>
+    </Link>
   </div>
 );
 

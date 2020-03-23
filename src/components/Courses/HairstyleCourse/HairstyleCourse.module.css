@@ -34,3 +34,26 @@
   color: #fff;
   text-transform: uppercase;
 }
+
+.signUpLink {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .hairstyleCourseWrapper h3 {
+    font-size: 24px;
+  }
+
+  .hairstyleCourseWrapper p {
+    font-size: 18px;
+  }
+
+  .hairstyleCourseWrapper ul li {
+    font-size: 18px;
+  }
+
+  .hairstyleCourseWrapper button {
+    font-size: 22px;
+    padding: 15px;
+  }
+}

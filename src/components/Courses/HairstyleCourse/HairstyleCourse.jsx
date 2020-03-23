@@ -1,5 +1,9 @@
 import React from "react";
-import { hairstyleCourseWrapper } from "./HairstyleCourse.module.css";
+import {
+  hairstyleCourseWrapper,
+  signUpLink
+} from "./HairstyleCourse.module.css";
+import { Link } from "react-router-dom";
 
 const HairstyleCourse = () => (
   <div className={hairstyleCourseWrapper}>
@@ -65,7 +69,9 @@ const HairstyleCourse = () => (
       именно под ваши пожелания.
     </p>
 
-    <button>Записаться на курс</button>
+    <Link className={signUpLink} to="/contacts">
+      <button>Записаться на курс</button>
+    </Link>
   </div>
 );
 

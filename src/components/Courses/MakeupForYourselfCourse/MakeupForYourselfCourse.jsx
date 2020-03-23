@@ -1,5 +1,9 @@
 import React from "react";
-import { makeupForYourselfCourseWrapper } from "./MakeupForYourselfCourse.module.css";
+import {
+  makeupForYourselfCourseWrapper,
+  signUpLink
+} from "./MakeupForYourselfCourse.module.css";
+import { Link } from "react-router-dom";
 
 const MakeupForYourselfCourse = () => (
   <div className={makeupForYourselfCourseWrapper}>
@@ -29,7 +33,9 @@ const MakeupForYourselfCourse = () => (
     </p>
     <p>Косметика, кисти, расходники предоставляются.</p>
 
-    <button>Записаться на курс</button>
+    <Link className={signUpLink} to="/contacts">
+      <button>Записаться на курс</button>
+    </Link>
   </div>
 );
 

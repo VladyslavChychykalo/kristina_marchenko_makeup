@@ -1,5 +1,6 @@
 import React from "react";
-import { refreshCourseWrapper } from "./RefreshCourse.module.css";
+import { refreshCourseWrapper, signUpLink } from "./RefreshCourse.module.css";
+import { Link } from "react-router-dom";
 
 const RefreshCourse = () => (
   <div className={refreshCourseWrapper}>
@@ -70,7 +71,9 @@ const RefreshCourse = () => (
       закрыть небольшие пробелы в знаниях.
     </p>
 
-    <button>Записаться на курс</button>
+    <Link className={signUpLink} to="/contacts">
+      <button>Записаться на курс</button>
+    </Link>
   </div>
 );
 

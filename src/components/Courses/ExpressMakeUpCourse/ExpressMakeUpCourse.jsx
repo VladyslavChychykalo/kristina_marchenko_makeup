@@ -1,5 +1,9 @@
 import React from "react";
-import { expressCourseWrapper } from "./ExpressMakeUpCourse.module.css";
+import {
+  expressCourseWrapper,
+  signUpLink
+} from "./ExpressMakeUpCourse.module.css";
+import { Link } from "react-router-dom";
 
 const ExpressMakeUpCourse = () => (
   <div className={expressCourseWrapper}>
@@ -63,7 +67,9 @@ const ExpressMakeUpCourse = () => (
       </li>
     </ul>
 
-    <button>Записаться на курс</button>
+    <Link className={signUpLink} to="/contacts">
+      <button>Записаться на курс</button>
+    </Link>
   </div>
 );
 
