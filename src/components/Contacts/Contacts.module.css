@@ -69,3 +69,9 @@
     height: 800px;
   }
 }
+
+@media (min-width: 1200px) {
+  .info {
+    font-size: 24px;
+  }
+}

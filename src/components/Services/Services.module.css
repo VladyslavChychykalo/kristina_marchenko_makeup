@@ -38,3 +38,18 @@
     margin-top: 100px;
   }
 }
+
+@media (min-width: 1200px) {
+  .servicesList {
+    padding: 0 50px;
+  }
+
+  .info,
+  .additionalInfo {
+    font-size: 19px;
+  }
+
+  .additionalInfo {
+    padding-bottom: 50px;
+  }
+}

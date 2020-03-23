@@ -80,3 +80,21 @@
     font-size: 28px;
   }
 }
+
+@media (min-width: 1200px) {
+  .coursesWrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .coursesWrapper li h4 {
+    font-size: 24px;
+  }
+
+  .coursesWrapper li p {
+    font-size: 19px;
+  }
+
+  .coursesWrapper li button {
+    font-size: 22px;
+  }
+}
