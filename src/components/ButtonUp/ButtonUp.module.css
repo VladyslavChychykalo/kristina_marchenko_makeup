@@ -13,7 +13,7 @@
 
 .buttonUpWrapper p {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 55px;
   height: 100%;
 }
 
@@ -26,6 +26,6 @@
   }
 
   .buttonUpWrapper p {
-    font-size: 70px;
+    font-size: 80px;
   }
 }
