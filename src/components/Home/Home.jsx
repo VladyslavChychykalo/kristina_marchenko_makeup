@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { backGround, imageCard, homeWrapper } from "./Home.module.css";
+import {
+  backGround,
+  imageCard,
+  homeWrapper,
+  homeSliderImage
+} from "./Home.module.css";
 import gallery from "./gallery/gallery";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import slideRandomTransaction from "../../stylesheet/transitions/slideRandomImage.module.css";
@@ -48,11 +53,9 @@ export default class Home extends Component {
             <div className={imageCard}>
               {/* <img src={gallery[index]} alt="" /> */}
               <div
+                className={homeSliderImage}
                 style={{
-                  backgroundImage: `url(${gallery[index]})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat"
+                  backgroundImage: `url(${gallery[index]})`
                 }}
               ></div>
             </div>

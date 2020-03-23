@@ -4,6 +4,7 @@
   height: 100%;
   object-fit: cover; */
   margin-top: 20px;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -13,5 +14,18 @@
     /* обязательное св-во, не удалять !! */
     /* object-fit: cover; */
     margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .imageCard {
+    object-fit: cover;
+    position: relative;
+    filter: opacity(100%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .imageCard:hover {
+    filter: opacity(50%);
   }
 }

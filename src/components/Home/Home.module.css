@@ -29,3 +29,15 @@
   top: 0;
   left: 0;
 }
+
+.homeSliderImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+  .homeSliderImage {
+    background-size: contain;
+  }
+}

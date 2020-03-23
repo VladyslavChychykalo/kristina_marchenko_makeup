@@ -56,3 +56,9 @@
     max-height: 1200px;
   }
 }
+
+@media (min-width: 1200px) {
+  .modal img {
+    height: 700px;
+  }
+}
