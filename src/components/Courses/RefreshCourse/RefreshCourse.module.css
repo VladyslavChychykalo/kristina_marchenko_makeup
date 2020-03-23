@@ -57,3 +57,22 @@
     padding: 15px;
   }
 }
+
+@media (min-width: 1024px) {
+  .refreshCourseWrapper h3 {
+    font-size: 30px;
+  }
+
+  .refreshCourseWrapper p {
+    font-size: 24px;
+  }
+
+  .refreshCourseWrapper ul li {
+    font-size: 24px;
+  }
+
+  .refreshCourseWrapper button {
+    font-size: 24px;
+    padding: 16px;
+  }
+}

@@ -48,3 +48,22 @@
     padding: 15px;
   }
 }
+
+@media (min-width: 1024px) {
+  .makeupForYourselfCourseWrapper h3 {
+    font-size: 30px;
+  }
+
+  .makeupForYourselfCourseWrapper p {
+    font-size: 24px;
+  }
+
+  .makeupForYourselfCourseWrapper ul li {
+    font-size: 24px;
+  }
+
+  .makeupForYourselfCourseWrapper button {
+    font-size: 24px;
+    padding: 16px;
+  }
+}
