@@ -38,7 +38,6 @@ import portfolioImage37 from "../../../assets/images/portfolio/portfolioImage37.
 import portfolioImage38 from "../../../assets/images/portfolio/portfolioImage38.JPG";
 import portfolioImage39 from "../../../assets/images/portfolio/portfolioImage39.JPG";
 import portfolioImage40 from "../../../assets/images/portfolio/portfolioImage40.JPG";
-import portfolioImage41 from "../../../assets/images/portfolio/portfolioImage41.JPG";
 
 const gallery = [
   portfolioImage1,
@@ -80,8 +79,7 @@ const gallery = [
   portfolioImage37,
   portfolioImage38,
   portfolioImage39,
-  portfolioImage40,
-  portfolioImage41
+  portfolioImage40
 ];
 
 export default gallery;
