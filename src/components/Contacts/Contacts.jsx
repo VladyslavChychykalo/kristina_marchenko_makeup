@@ -1,15 +1,7 @@
 import React from "react";
 import WrappedMap from "./Map/Map";
-import {
-  socialLink,
-  mapWrapper,
-  map,
-  info,
-  contactsWrapper,
-  link
-} from "./Contacts.module.css";
-import { ReactComponent as Instagram } from "../../assets/svg/instagramIcon.svg";
-import { ReactComponent as Facebook } from "../../assets/svg/facebookIcon.svg";
+import SocialLinks from "./SocialLinks/SocialLinks";
+import { mapWrapper, map, info, contactsWrapper } from "./Contacts.module.css";
 
 const Contacts = () => (
   <div className={contactsWrapper}>
@@ -21,14 +13,7 @@ const Contacts = () => (
       Адрес: студия находится в 5-ти минутах от метро Печерская, ул. Евгения
       Коновальца,36 е
     </p>
-    <div>
-      <a className={link} href="https://www.instagram.com/kristina_makeups/">
-        <Instagram className={socialLink} />
-      </a>
-      <a className={link} href="https://www.facebook.com/sizenka">
-        <Facebook className={socialLink} />
-      </a>
-    </div>
+    <SocialLinks />
     <div className={mapWrapper}>
       <WrappedMap
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyCVwLxr93PoHBzTHHtifMaDRfVMME7y0eo&v=3.exp&libraries=geometry,drawing,places`}

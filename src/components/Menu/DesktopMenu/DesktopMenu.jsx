@@ -5,8 +5,13 @@ import {
   destopHeaderWrapper,
   desktopLogoImg,
   desktopNavList,
-  desktopNavItem
+  desktopNavItem,
+  link,
+  socialLink,
+  socialLinkWrapper
 } from "./DesktopMenu.module.css";
+import { ReactComponent as Instagram } from "../../../assets/svg/instagramIcon.svg";
+import { ReactComponent as Facebook } from "../../../assets/svg/facebookIcon.svg";
 
 const navLinks = [
   { id: 1, tytle: "Главная", path: "/home" },
@@ -28,6 +33,14 @@ const DesktopMenu = () => (
         </li>
       ))}
     </ul>
+    <div className={socialLinkWrapper}>
+      <a className={link} href="https://www.instagram.com/kristina_makeups/">
+        <Instagram className={socialLink} />
+      </a>
+      <a className={link} href="https://www.facebook.com/sizenka">
+        <Facebook className={socialLink} />
+      </a>
+    </div>
   </div>
 );
 

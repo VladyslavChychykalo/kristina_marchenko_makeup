@@ -40,3 +40,31 @@
 .desktopNavItem:hover {
   opacity: 0.7;
 }
+
+/* ========================================================================================================== */
+
+.socialLinkWrapper {
+  padding-left: 40px;
+}
+
+.link {
+  fill: #fff;
+  transition: fill 500ms;
+}
+
+.socialLink {
+  width: 20px;
+  height: 20px;
+}
+
+.link:first-child {
+  margin-right: 5px;
+}
+
+.link:first-child:hover {
+  fill: #e1306c;
+}
+
+.link:nth-child(2):hover {
+  fill: #4267b2;
+}

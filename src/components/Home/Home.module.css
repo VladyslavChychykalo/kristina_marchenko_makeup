@@ -37,7 +37,19 @@
 }
 
 @media (min-width: 1200px) {
+  .homeWrapper div {
+    width: auto;
+  }
+
+  .homeWrapper {
+    width: 100%;
+  }
+
   .homeSliderImage {
-    background-size: contain;
+    background-position: 50% 20%;
+  }
+
+  .imageCard {
+    margin-left: 300px;
   }
 }
