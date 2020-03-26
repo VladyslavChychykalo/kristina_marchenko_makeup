@@ -76,3 +76,26 @@
     padding: 16px;
   }
 }
+
+@media (min-width: 1200px) {
+  .refreshCourseWrapper {
+    margin-left: 300px;
+  }
+
+  .refreshCourseWrapper h3 {
+    font-size: 20px;
+  }
+
+  .refreshCourseWrapper p {
+    font-size: 16px;
+  }
+
+  .refreshCourseWrapper ul li {
+    font-size: 16px;
+  }
+
+  .refreshCourseWrapper button {
+    font-size: 16px;
+    padding: 16px;
+  }
+}

@@ -76,3 +76,26 @@
     padding: 16px;
   }
 }
+
+@media (min-width: 1200px) {
+  .hairstyleCourseWrapper {
+    margin-left: 300px;
+  }
+
+  .hairstyleCourseWrapper h3 {
+    font-size: 20px;
+  }
+
+  .hairstyleCourseWrapper p {
+    font-size: 16px;
+  }
+
+  .hairstyleCourseWrapper ul li {
+    font-size: 16px;
+  }
+
+  .hairstyleCourseWrapper button {
+    font-size: 16px;
+    padding: 16px;
+  }
+}

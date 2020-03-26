@@ -76,3 +76,26 @@
     padding: 16px;
   }
 }
+
+@media (min-width: 1200px) {
+  .expressCourseWrapper {
+    margin-left: 300px;
+  }
+
+  .expressCourseWrapper h3 {
+    font-size: 20px;
+  }
+
+  .expressCourseWrapper p {
+    font-size: 16px;
+  }
+
+  .expressCourseWrapper ul li {
+    font-size: 16px;
+  }
+
+  .expressCourseWrapper button {
+    font-size: 16px;
+    padding: 16px;
+  }
+}
