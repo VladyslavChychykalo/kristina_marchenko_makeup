@@ -54,6 +54,11 @@
     grid-gap: 15px;
   }
 
+  .coursesWrapper li {
+    font-size: 22px;
+    margin: 0;
+  }
+
   .coursesWrapper li h4 {
     font-size: 22px;
   }
@@ -88,14 +93,14 @@
   }
 
   .coursesWrapper li h4 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .coursesWrapper li p {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .coursesWrapper li button {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
