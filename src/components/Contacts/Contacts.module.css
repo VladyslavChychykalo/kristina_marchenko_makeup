@@ -45,7 +45,8 @@
 
 @media (min-width: 1200px) {
   .contactsWrapper {
-    margin-left: 300px;
+    margin-left: auto;
+    margin-right: 100px;
   }
 
   .mapWrapper {
