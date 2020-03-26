@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Header from "./Header/Header";
-import ToggleMenu from "./ToggleMenu/ToggleMenu";
+import DropDownMenu from "./Menu/DropDownMenu/DropDownMenu";
+import Menu from "./Menu/Menu";
 import routes from "../routes/routes";
 import slideMenuTransition from "../stylesheet/transitions/slideMenu.module.css";
 import { CSSTransition } from "react-transition-group";
@@ -27,10 +27,10 @@ export default class App extends Component {
           classNames={slideMenuTransition}
           unmountOnExit
         >
-          <Header onToggle={this.toggleMenu} />
+          <DropDownMenu onToggle={this.toggleMenu} />
         </CSSTransition>
         <div className={container}>
-          <ToggleMenu onToggle={this.toggleMenu} />
+          <Menu onToggle={this.toggleMenu} />
           <Switch>
             <Route
               path={routes.HOME_PAGE.path}

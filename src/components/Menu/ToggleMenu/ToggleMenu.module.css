@@ -1,0 +1,23 @@
+.buttonToggle {
+  padding-top: 20px;
+}
+
+.buttonToggle button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+.logoImg {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .buttonToggle button {
+    font-size: 30px;
+  }
+}

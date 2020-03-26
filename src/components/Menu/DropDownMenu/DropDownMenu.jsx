@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { navWrapper, nav } from "./Header.module.css";
+import { navWrapper, nav } from "./DropDownMenu.module.css";
 
 const navLinks = [
   { id: 1, tytle: "Главная", path: "/home" },
