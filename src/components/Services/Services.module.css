@@ -40,6 +40,10 @@
 }
 
 @media (min-width: 1200px) {
+  .servicesWrapper {
+    margin: auto;
+  }
+
   .servicesList {
     padding: 0 50px;
   }

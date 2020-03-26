@@ -84,6 +84,7 @@
 @media (min-width: 1200px) {
   .coursesWrapper {
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 300px;
   }
 
   .coursesWrapper li h4 {
