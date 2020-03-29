@@ -1,12 +1,15 @@
 .destopHeaderWrapper {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: bold;
   width: 300px;
   height: auto;
-  position: static;
-  left: 0;
-  top: 0;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
+  background-color: #000;
+  height: 100%;
 }
 
 .desktopLogoImg {
@@ -32,13 +35,12 @@
 .desktopNavItem {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
-  opacity: 1;
+  font-size: 19px;
   transition: 0.3s ease-in-out;
 }
 
 .desktopNavItem:hover {
-  opacity: 0.7;
+  color: #ffe6c0;
 }
 
 /* ========================================================================================================== */

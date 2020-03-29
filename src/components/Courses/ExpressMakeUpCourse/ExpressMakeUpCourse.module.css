@@ -78,8 +78,15 @@
 }
 
 @media (min-width: 1200px) {
+  .expressCourseWrapper h3 {
+    color: #000;
+  }
+
   .expressCourseWrapper {
-    margin-left: 300px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #ffe6c0;
+    color: #000;
   }
 
   .expressCourseWrapper h3 {

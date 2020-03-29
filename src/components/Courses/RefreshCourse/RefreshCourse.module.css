@@ -19,7 +19,7 @@
   padding-bottom: 30px;
 }
 
-.refreshCourseWrapper ul {
+.refreshCourseWrapper ul li {
   padding-bottom: 10px;
 }
 
@@ -78,8 +78,15 @@
 }
 
 @media (min-width: 1200px) {
+  .refreshCourseWrapper h3 {
+    color: #000;
+  }
+
   .refreshCourseWrapper {
-    margin-left: 300px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #ffe6c0;
+    color: #000;
   }
 
   .refreshCourseWrapper h3 {

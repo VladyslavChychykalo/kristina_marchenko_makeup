@@ -17,5 +17,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
     margin-left: 300px;
+    /* background-color: #404040; */
+    background-color: #ffe6c0;
   }
 }
