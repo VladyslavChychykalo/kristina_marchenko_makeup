@@ -32,4 +32,9 @@
     width: 40px;
     height: 40px;
   }
+
+  .link {
+    fill: #000;
+    transition: fill 500ms;
+  }
 }

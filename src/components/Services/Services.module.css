@@ -41,12 +41,16 @@
 
 @media (min-width: 1200px) {
   .servicesWrapper {
-    margin: auto;
+    background-color: #ffe6c0;
+    width: 100%;
+    height: 100vh;
   }
 
   .servicesList {
+    margin: auto;
     width: 600px;
-    padding: 0 50px;
+    padding-top: 150px;
+    color: #000;
   }
 
   .info,
@@ -56,5 +60,6 @@
 
   .additionalInfo {
     padding-bottom: 50px;
+    color: #000;
   }
 }
