@@ -21,11 +21,11 @@
   .imageCard {
     object-fit: cover;
     position: relative;
-    filter: opacity(100%);
+    filter: brightness(1);
     transition: 0.3s ease-in-out;
   }
 
   .imageCard:hover {
-    filter: opacity(50%);
+    filter: brightness(0.6);
   }
 }
