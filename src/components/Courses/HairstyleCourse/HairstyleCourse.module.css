@@ -79,14 +79,14 @@
 
 @media (min-width: 1200px) {
   .hairstyleCourseWrapper h3 {
-    color: #000;
+    color: #fff;
   }
 
   .hairstyleCourseWrapper {
     padding-left: 400px;
     padding-right: 400px;
-    background-color: #ffe6c0;
-    color: #000;
+    background-color: #606060;
+    color: #fff;
     /* === */
     height: 100vh;
   }

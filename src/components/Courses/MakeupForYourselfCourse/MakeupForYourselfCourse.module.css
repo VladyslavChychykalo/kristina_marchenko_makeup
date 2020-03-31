@@ -70,14 +70,14 @@
 
 @media (min-width: 1200px) {
   .makeupForYourselfCourseWrapper h3 {
-    color: #000;
+    color: #fff;
   }
 
   .makeupForYourselfCourseWrapper {
     padding-left: 400px;
     padding-right: 400px;
-    background-color: #ffe6c0;
-    color: #000;
+    background-color: #606060;
+    color: #fff;
     /* === */
     height: 100vh;
   }

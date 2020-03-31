@@ -6,9 +6,27 @@ import image2 from "../../assets/images/courses/makeupPhoto2.JPG";
 import image3 from "../../assets/images/courses/makeupPhoto3.JPG";
 import image4 from "../../assets/images/courses/makeupPhoto4.JPG";
 import image5 from "../../assets/images/courses/makeupPhoto5.JPG";
+import image6 from "../../assets/images/portfolio/portfolioImage17.JPG";
 
 const Courses = () => (
   <ul className={coursesWrapper}>
+    <li>
+      <img src={image6} alt="" />
+      <div>
+        <h4>Услуги</h4>
+        {/* <p>
+          Курс для тех, кто хочет быть мастером-универсалом и освоить самые
+          коммерческие укладки и причёски, чтобы создавать полный образ для
+          клиента. А также для работающих мастеров, которые хотят расширить базу
+          знаний и прокачать навыки.
+        </p> */}
+        <button>
+          <Link className={link} to="/services">
+            Все об услугах
+          </Link>
+        </button>
+      </div>
+    </li>
     <li>
       <img src={image1} alt="" />
       <div>

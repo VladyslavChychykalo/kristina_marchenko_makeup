@@ -16,9 +16,8 @@ import { ReactComponent as Facebook } from "../../../assets/svg/facebookIcon.svg
 const navLinks = [
   { id: 1, tytle: "Главная", path: "/home" },
   { id: 2, tytle: "Портфолио", path: "/portfolio" },
-  { id: 3, tytle: "Услуги", path: "/services" },
-  { id: 4, tytle: "Обучение", path: "/education" },
-  { id: 5, tytle: "Контакты", path: "/contacts" }
+  { id: 3, tytle: "Обучение/Услуги", path: "/education" },
+  { id: 4, tytle: "Контакты", path: "/contacts" }
 ];
 
 const DesktopMenu = () => (
