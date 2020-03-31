@@ -35,6 +35,15 @@ export default class Home extends Component {
     }));
   };
 
+  homeImageScreen = index => {
+    const windowWidth = document.documentElement.clientWidth;
+    if (windowWidth >= 1200) {
+      return gallery[0];
+    }
+
+    return gallery[index];
+  };
+
   render() {
     const { index } = this.state;
     let vh = window.innerHeight * 0.01;
@@ -51,11 +60,10 @@ export default class Home extends Component {
             unmountOnExit
           >
             <div className={imageCard}>
-              {/* <img src={gallery[index]} alt="" /> */}
               <div
                 className={homeSliderImage}
                 style={{
-                  backgroundImage: `url(${gallery[index]})`
+                  backgroundImage: `url(${this.homeImageScreen(index)})`
                 }}
               ></div>
             </div>
