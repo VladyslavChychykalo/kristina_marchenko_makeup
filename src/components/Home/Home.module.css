@@ -37,6 +37,10 @@
 }
 
 @media (min-width: 1200px) {
+  .backGround {
+    background-color: transparent;
+  }
+
   .homeWrapper div {
     width: auto;
   }
