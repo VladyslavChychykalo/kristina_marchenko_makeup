@@ -93,6 +93,13 @@
     background-color: #606060;
   }
 
+  .coursesWrapper div {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .coursesWrapper li h4 {
     font-size: 20px;
   }
