@@ -13,6 +13,11 @@ export default class Home extends Component {
   state = { index: -1, didMount: true };
 
   componentDidMount() {
+    const windowWidth = document.documentElement.clientWidth;
+    if (windowWidth >= 1200) {
+      return;
+    }
+
     this.nextImage();
     this.interval = setInterval(this.nextImage, 5000);
   }

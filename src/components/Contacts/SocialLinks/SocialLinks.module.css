@@ -34,7 +34,7 @@
   }
 
   .link {
-    fill: #000;
+    fill: #fff;
     transition: fill 500ms;
   }
 }
