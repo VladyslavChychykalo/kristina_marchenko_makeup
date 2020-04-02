@@ -9,7 +9,8 @@
 
 .logoWrapper h2 {
   color: #fff;
-  padding-top: 50px;
+  padding-top: 40px;
+  font-size: 32px;
 }
 
 .logoWrapper p {
@@ -18,5 +19,57 @@
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 14px;
+  font-size: 20px;
+}
+
+@media (min-width: 375px) {
+  .logoWrapper h2 {
+    font-size: 38px;
+  }
+
+  .logoWrapper p {
+    font-size: 20px;
+    letter-spacing: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoWrapper h2 {
+    font-size: 76px;
+    padding-top: 60px;
+  }
+
+  .logoWrapper p {
+    font-size: 48px;
+    letter-spacing: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoWrapper h2 {
+    font-size: 100px;
+    padding-top: 60px;
+  }
+
+  .logoWrapper p {
+    font-size: 52px;
+    letter-spacing: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logoWrapper {
+    font-family: "Lato", sans-serif;
+  }
+
+  .logoWrapper h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 29px;
+  }
+
+  .logoWrapper p {
+    font-size: 16px;
+    letter-spacing: 6px;
+  }
 }
