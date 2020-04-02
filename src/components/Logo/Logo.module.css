@@ -1,0 +1,22 @@
+.logoWrapper {
+  color: #fff;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoWrapper h2 {
+  color: #fff;
+  padding-top: 50px;
+}
+
+.logoWrapper p {
+  padding-top: 10px;
+  padding-bottom: 130px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 14px;
+}

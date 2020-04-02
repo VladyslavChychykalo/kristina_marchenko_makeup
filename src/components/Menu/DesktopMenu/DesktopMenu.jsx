@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/logo.gif";
+// import logo from "../../../assets/images/logo.gif";
+import Logo from "../../Logo/Logo";
 import {
   destopHeaderWrapper,
-  desktopLogoImg,
+  // desktopLogoImg,
   desktopNavList,
   desktopNavItem,
   link,
@@ -22,7 +23,8 @@ const navLinks = [
 
 const DesktopMenu = () => (
   <div className={destopHeaderWrapper}>
-    <img className={desktopLogoImg} src={logo} alt="" />
+    {/* <img className={desktopLogoImg} src={logo} alt="" /> */}
+    <Logo />
     <ul className={desktopNavList}>
       {navLinks.map(({ id, tytle, path }) => (
         <li key={id}>
