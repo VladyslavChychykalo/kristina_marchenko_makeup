@@ -6,7 +6,7 @@
 .makeupForYourselfCourseWrapper h3 {
   text-align: center;
   margin-bottom: 30px;
-  color: #ffefd5;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -69,10 +69,6 @@
 }
 
 @media (min-width: 1200px) {
-  .makeupForYourselfCourseWrapper h3 {
-    color: #fff;
-  }
-
   .makeupForYourselfCourseWrapper {
     padding-left: 400px;
     padding-right: 400px;
