@@ -6,7 +6,7 @@ import image2 from "../../assets/images/courses/makeupPhoto2.JPG";
 import image3 from "../../assets/images/courses/makeupPhoto3.JPG";
 import image4 from "../../assets/images/courses/makeupPhoto4.JPG";
 import image5 from "../../assets/images/courses/makeupPhoto5.JPG";
-import image6 from "../../assets/images/courses/makeupPhoto6.jpg";
+import image6 from "../../assets/images/courses/makeupPhoto6.JPG";
 
 class Courses extends Component {
   mobileServices = () => {

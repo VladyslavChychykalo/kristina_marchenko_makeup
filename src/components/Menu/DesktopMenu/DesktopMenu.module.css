@@ -1,7 +1,8 @@
 .destopHeaderWrapper {
-  font-family: "Libre Baskerville", serif;
-  font-style: italic;
-  font-weight: bold;
+  /* font-family: "Libre Baskerville", serif; */
+  /* font-style: italic; */
+  font-weight: normal;
+  letter-spacing: 2px;
   width: 300px;
   height: auto;
   position: fixed;
