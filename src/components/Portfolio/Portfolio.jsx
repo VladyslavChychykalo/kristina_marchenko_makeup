@@ -3,7 +3,7 @@ import { CSSTransition } from "react-transition-group";
 import ButtonUp from "../ButtonUp/ButtonUp";
 import PhotoCard from "./PhotoCard/PhotoCard";
 import gallery from "./gallery/gallery";
-import { portfolioWrapper } from "./Portfolio.module.css";
+import { portfolioBackground, portfolioWrapper } from "./Portfolio.module.css";
 import fadeButtonUpTransition from "../../stylesheet/transitions/fadeButtonUp.module.css";
 
 class Portfolio extends Component {
@@ -17,7 +17,7 @@ class Portfolio extends Component {
     window.removeEventListener("scroll", this.listenScrollEvent);
   }
 
-  listenScrollEvent = e => {
+  listenScrollEvent = (e) => {
     if (window.scrollY > 1500) {
       this.setState({ isAppear: true });
     } else {
@@ -28,7 +28,7 @@ class Portfolio extends Component {
   scrollOnTop = () => {
     window.scrollTo({
       top: document.documentElement.clientTop,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
@@ -37,8 +37,9 @@ class Portfolio extends Component {
 
     return (
       <>
+        <div className={portfolioBackground}></div>
         <ul className={portfolioWrapper}>
-          {gallery.map(el => (
+          {gallery.map((el) => (
             <li key={el}>
               <PhotoCard key={el} link={el} />
             </li>

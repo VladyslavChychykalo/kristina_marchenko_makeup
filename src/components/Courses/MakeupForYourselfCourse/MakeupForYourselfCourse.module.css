@@ -72,10 +72,7 @@
   .makeupForYourselfCourseWrapper {
     padding-left: 400px;
     padding-right: 400px;
-    background-color: #606060;
     color: #fff;
-    /* === */
-    height: 100vh;
   }
 
   .makeupForYourselfCourseWrapper h3 {

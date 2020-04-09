@@ -12,12 +12,20 @@
 }
 
 @media (min-width: 1200px) {
+  .portfolioBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #606060;
+  }
+
   .portfolioWrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
     margin-left: 300px;
     /* background-color: #404040; */
-    background-color: #606060;
   }
 }
