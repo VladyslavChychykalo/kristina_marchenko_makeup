@@ -6,20 +6,13 @@ import ToggleMenu from "./ToggleMenu/ToggleMenu";
 const Menu = ({ onToggle }) => {
   return (
     <div>
-      <Media queries={{ small: { minWidth: 1199 } }}>
+      <Media queries={{ small: { maxWidth: 1199 } }}>
         {(matches) =>
-          matches.small ? <DesktopMenu /> : <ToggleMenu onToggle={onToggle} />
+          matches.small ? <ToggleMenu onToggle={onToggle} /> : <DesktopMenu />
         }
       </Media>
     </div>
   );
-  // const windowWidth = document.documentElement.clientWidth;
-
-  // if (windowWidth >= 1200) {
-  //   return <DesktopMenu />;
-  // }
-
-  // return <ToggleMenu onToggle={onToggle} />;
 };
 
 export default Menu;
