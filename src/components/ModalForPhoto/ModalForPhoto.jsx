@@ -7,26 +7,24 @@ class Modal extends Component {
   backdropRef = createRef();
 
   static propTypes = {
-    onClose: PropTypes.func.isRequired
+    onClose: PropTypes.func.isRequired,
   };
 
   componentDidMount() {
     window.addEventListener("keydown", this.handleKeyPress);
-    // window.addEventListener("keypress", this.handleTakeValue);
   }
 
   componentWillUnmount() {
     window.removeEventListener("keydown", this.handleKeyPress);
-    // window.removeEventListener("keypress", this.handleTakeValue);
   }
 
-  handleKeyPress = e => {
+  handleKeyPress = (e) => {
     if (e.code !== `Escape`) return;
 
     this.props.onClose();
   };
 
-  handleBackdropClick = e => {
+  handleBackdropClick = (e) => {
     const { current } = this.backdropRef;
 
     if (current && e.target !== current) return;
@@ -34,22 +32,9 @@ class Modal extends Component {
     this.props.onClose();
   };
 
-  handleTakeValue = target => {
+  handleTakeValue = (target) => {
     this.props.onChangeImage(target);
-    // if (e.code === "37" && e.code === "39") {
-    //   this.props.onChangeImage(e.target);
-    // }
-
-    // this.props.onChangeImage(e.target);
   };
-
-  // handleTakeValue = e => {
-  //   if (e.code === "38" && e.code === "39") {
-  //     this.props.onChangeImage(e.target);
-  //   }
-
-  //   this.props.onChangeImage(e.target);
-  // };
 
   render() {
     const { index } = this.props;
@@ -63,7 +48,14 @@ class Modal extends Component {
         onKeyPress={() => {}}
       >
         <div className={styles.modal}>
-          <img src={gallery[index]} alt="image_makeup" />
+          <img
+            style={{
+              paddingTop: "10px",
+              paddingBottom: "10px",
+            }}
+            src={gallery[index]}
+            alt="image_makeup"
+          />
           <div className={styles.bntsNavigation}>
             <button
               name="left"
