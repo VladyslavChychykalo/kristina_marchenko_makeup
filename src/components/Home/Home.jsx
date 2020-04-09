@@ -3,7 +3,7 @@ import {
   backGround,
   imageCard,
   homeWrapper,
-  homeSliderImage
+  homeSliderImage,
 } from "./Home.module.css";
 import gallery from "./gallery/gallery";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -31,16 +31,16 @@ export default class Home extends Component {
 
     if (gallery.length - 1 === index) {
       this.setState({
-        index: -1
+        index: -1,
       });
     }
 
-    this.setState(state => ({
-      index: state.index + 1
+    this.setState((state) => ({
+      index: state.index + 1,
     }));
   };
 
-  homeImageScreen = index => {
+  homeImageScreen = (index) => {
     const windowWidth = document.documentElement.clientWidth;
     if (windowWidth >= 1200) {
       return gallery[0];
@@ -68,7 +68,7 @@ export default class Home extends Component {
               <div
                 className={homeSliderImage}
                 style={{
-                  backgroundImage: `url(${this.homeImageScreen(index)})`
+                  backgroundImage: `url(${this.homeImageScreen(index)})`,
                 }}
               ></div>
             </div>
