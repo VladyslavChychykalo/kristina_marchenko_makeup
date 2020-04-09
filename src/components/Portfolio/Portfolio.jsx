@@ -1,10 +1,17 @@
 import React, { Component } from "react";
+import Loadable from "react-loadable";
+import Loader from "../Loader/Loader";
 import { CSSTransition } from "react-transition-group";
 import ButtonUp from "../ButtonUp/ButtonUp";
-import PhotoCard from "./PhotoCard/PhotoCard";
+// import PhotoCard from "./PhotoCard/PhotoCard";
 import gallery from "./gallery/gallery";
 import { portfolioBackground, portfolioWrapper } from "./Portfolio.module.css";
 import fadeButtonUpTransition from "../../stylesheet/transitions/fadeButtonUp.module.css";
+
+const PhotoCard = Loadable({
+  loader: () => import("./PhotoCard/PhotoCard"),
+  loading: Loader,
+});
 
 class Portfolio extends Component {
   state = { isAppear: false };

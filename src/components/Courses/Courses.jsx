@@ -8,6 +8,44 @@ import image4 from "../../assets/images/courses/makeupPhoto4.jpg";
 import image5 from "../../assets/images/courses/makeupPhoto5.jpg";
 import image6 from "../../assets/images/courses/makeupPhoto6.jpg";
 
+const courses = [
+  {
+    id: 1,
+    title: 'Базовый курс "Визажист"',
+    to: "/education/basic_course",
+    linkTitle: "Все о курсе",
+    image: image1,
+  },
+  {
+    id: 2,
+    title: 'Курс "Экспресс-визажист"',
+    to: "/education/express_makeup_course",
+    linkTitle: "Все о курсе",
+    image: image2,
+  },
+  {
+    id: 3,
+    title: "Курс повышения квалификации",
+    to: "/education/refresher_course",
+    linkTitle: "Все о курсе",
+    image: image3,
+  },
+  {
+    id: 4,
+    title: 'Курс "Макияж для себя"',
+    to: "/education/makeup_for_yourself_course",
+    linkTitle: "Все о курсе",
+    image: image4,
+  },
+  {
+    id: 5,
+    title: 'Курс по прическам "Актуальные тренды"',
+    to: "/education/hairstyle_course",
+    linkTitle: "Все о курсе",
+    image: image5,
+  },
+];
+
 class Courses extends Component {
   mobileServices = () => {
     const windowWidth = document.documentElement.clientWidth;
@@ -37,104 +75,21 @@ class Courses extends Component {
         <div className={coursesBackground}></div>
         <ul className={coursesWrapper}>
           {this.mobileServices()}
-          <li>
-            <img src={image1} alt="" />
-            <div>
-              <section>
-                <h4>Базовый курс "Визажист"</h4>
-                {/* <p>
-          Полное погружение в профессию визажиста. Подходит всем, кто мечтает
-          научиться делать не просто красивые, а качественные макияжи,
-          подходящие любому типу внешности, со знанием анатомии и пониманием
-          логики цветов.
-        </p> */}
-                <button>
-                  <Link className={link} to="/education/basic_course">
-                    Все о курсе
-                  </Link>
-                </button>
-              </section>
-            </div>
-          </li>
-          <li>
-            <img src={image2} alt="" />
-            <div>
-              <section>
-                <h4>Курс "Экспресс-визажист"</h4>
-                {/* <p>
-          Самый удобный курс для тех, кто хочет освоить новую профессию, но не
-          имеет достаточно свободного времени, чтобы пройти полый базовый
-          курс. В сжатые сроки вы получаете основную необходимую информацию
-          для работы визажистом.
-        </p> */}
-                <button>
-                  <Link className={link} to="/education/express_makeup_course">
-                    Все о курсе
-                  </Link>
-                </button>
-              </section>
-            </div>
-          </li>
-          <li>
-            <img src={image3} alt="" />
-            <div>
-              <section>
-                <h4>Курс повышения квалификации</h4>
-                {/* <p>
-          Курс для визажистов, которые проходили базу давно и хотят обновить
-          знания; тех, кто чувствует недостаток информации и навыков после
-          пройденной ранее базы; а также желающих научиться создавать
-          креативные образы.
-        </p> */}
-                <button>
-                  <Link className={link} to="/education/refresher_course">
-                    Все о курсе
-                  </Link>
-                </button>
-              </section>
-            </div>
-          </li>
-          <li>
-            <img src={image4} alt="" />
-            <div>
-              <section>
-                <h4>Курс "Макияж для себя"</h4>
-                {/* <p>
-          На этом курсе вы гарантированно научитесь не просто делать себе
-          макияж, а грамотно скрывать недостатки и подчеркивать достоинства
-          своего лица, правильно подбирать и использовать подходящую именно
-          Вам косметику.
-        </p> */}
-                <button>
-                  <Link
-                    className={link}
-                    to="/education/makeup_for_yourself_course"
-                  >
-                    Все о курсе
-                  </Link>
-                </button>
-              </section>
-            </div>
-          </li>
-          <li>
-            <img src={image5} alt="" />
-            <div>
-              <section>
-                <h4>Курс по прическам "Актуальные тренды"</h4>
-                {/* <p>
-          Курс для тех, кто хочет быть мастером-универсалом и освоить самые
-          коммерческие укладки и причёски, чтобы создавать полный образ для
-          клиента. А также для работающих мастеров, которые хотят расширить
-          базу знаний и прокачать навыки.
-        </p> */}
-                <button>
-                  <Link className={link} to="/education/hairstyle_course">
-                    Все о курсе
-                  </Link>
-                </button>
-              </section>
-            </div>
-          </li>
+          {courses.map((el) => (
+            <li key={el.id}>
+              <img src={el.image} alt="courses_image" />
+              <div>
+                <section>
+                  <h4>{el.title}</h4>
+                  <button>
+                    <Link className={link} to={el.to}>
+                      {el.linkTitle}
+                    </Link>
+                  </button>
+                </section>
+              </div>
+            </li>
+          ))}
         </ul>
       </>
     );
