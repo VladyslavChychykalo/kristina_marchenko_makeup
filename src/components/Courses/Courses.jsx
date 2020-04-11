@@ -53,7 +53,7 @@ class Courses extends Component {
     if (windowWidth >= 1200) {
       return (
         <li>
-          <img src={image6} alt="" />
+          <img loading="lazy" src={image6} alt="" />
           <div>
             <section>
               <h4>Услуги</h4>
@@ -77,7 +77,7 @@ class Courses extends Component {
           {this.mobileServices()}
           {courses.map((el) => (
             <li key={el.id}>
-              <img src={el.image} alt="courses_image" />
+              <img loading="lazy" src={el.image} alt="courses_image" />
               <div>
                 <section>
                   <h4>{el.title}</h4>
