@@ -17,6 +17,7 @@
 .mapWrapper {
   margin-top: 50px;
   width: 100vw;
+  padding: 0 10px;
 }
 
 .map {
@@ -30,6 +31,10 @@
 
   .map {
     height: 600px;
+  }
+
+  .mapWrapper {
+    padding: 0 15px;
   }
 }
 
