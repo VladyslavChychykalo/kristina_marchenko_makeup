@@ -3,7 +3,6 @@ import Loadable from "react-loadable";
 import Loader from "../Loader/Loader";
 import { CSSTransition } from "react-transition-group";
 import ButtonUp from "../ButtonUp/ButtonUp";
-// import PhotoCard from "./PhotoCard/PhotoCard";
 import gallery from "./gallery/gallery";
 import { portfolioBackground, portfolioWrapper } from "./Portfolio.module.css";
 import fadeButtonUpTransition from "../../stylesheet/transitions/fadeButtonUp.module.css";

@@ -10,7 +10,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import slideRandomTransaction from "../../stylesheet/transitions/slideRandomImage.module.css";
 
 export default class Home extends Component {
-  state = { index: -1, didMount: true };
+  state = { index: -1 };
 
   componentDidMount() {
     const windowWidth = document.documentElement.clientWidth;

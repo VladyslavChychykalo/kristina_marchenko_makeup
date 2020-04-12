@@ -47,7 +47,6 @@ export default class PhotoCard extends Component {
 
   render() {
     const { link } = this.props;
-    console.log(this.toggleModal);
 
     return (
       <>
@@ -62,14 +61,6 @@ export default class PhotoCard extends Component {
             alt="image_makeup"
           />
         </div>
-
-        {/* <img
-          className={imageCard}
-          onClick={this.toggleModal}
-          src={link}
-          alt="image_makeup"
-          loading="lazy"
-        /> */}
         {this.openModalScreen()}
       </>
     );
