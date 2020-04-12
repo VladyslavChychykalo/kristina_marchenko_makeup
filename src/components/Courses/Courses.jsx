@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Media from "react-media";
 import { link, coursesWrapper, coursesBackground } from "./Courses.module.css";
 import LoaderForComponents from "../LoaderForComponents/LoaderForComponents";
 import { Link } from "react-router-dom";
@@ -92,28 +93,6 @@ class Courses extends Component {
     };
   }
 
-  mobileServices = () => {
-    const windowWidth = document.documentElement.clientWidth;
-
-    if (windowWidth >= 1200) {
-      return (
-        <li>
-          <img loading="lazy" src={image6} alt="" />
-          <div>
-            <section>
-              <h4>Услуги</h4>
-              <button>
-                <Link className={link} to="/services">
-                  Все об услугах
-                </Link>
-              </button>
-            </section>
-          </div>
-        </li>
-      );
-    }
-  };
-
   render() {
     const { imageIsReady } = this.state;
 
@@ -125,7 +104,25 @@ class Courses extends Component {
       <>
         <div className={coursesBackground}></div>
         <ul className={coursesWrapper}>
-          {this.mobileServices()}
+          <Media queries={{ small: { minWidth: 1199 } }}>
+            {(matches) =>
+              matches.small && (
+                <li>
+                  <img loading="lazy" src={image6} alt="" />
+                  <div>
+                    <section>
+                      <h4>Услуги</h4>
+                      <button>
+                        <Link className={link} to="/services">
+                          Все об услугах
+                        </Link>
+                      </button>
+                    </section>
+                  </div>
+                </li>
+              )
+            }
+          </Media>
           {courses.map((el) => (
             <li key={el.id}>
               <img loading="lazy" src={el.image} alt="courses_image" />
