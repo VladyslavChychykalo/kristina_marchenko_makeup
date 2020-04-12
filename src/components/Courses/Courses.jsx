@@ -47,6 +47,50 @@ const courses = [
 ];
 
 class Courses extends Component {
+  state = {
+    imageIsReady: false,
+  };
+
+  componentDidMount() {
+    const img1 = new Image();
+    const img2 = new Image();
+    const img3 = new Image();
+    const img4 = new Image();
+    const img5 = new Image();
+    const img6 = new Image();
+
+    img1.src = image1;
+    img2.src = image2;
+    img3.src = image3;
+    img4.src = image4;
+    img5.src = image5;
+    img6.src = image6;
+
+    img1.onload = () => {
+      this.setState({ imageIsReady: true });
+    };
+
+    img2.onload = () => {
+      this.setState({ imageIsReady: true });
+    };
+
+    img3.onload = () => {
+      this.setState({ imageIsReady: true });
+    };
+
+    img4.onload = () => {
+      this.setState({ imageIsReady: true });
+    };
+
+    img5.onload = () => {
+      this.setState({ imageIsReady: true });
+    };
+
+    img6.onload = () => {
+      this.setState({ imageIsReady: true });
+    };
+  }
+
   mobileServices = () => {
     const windowWidth = document.documentElement.clientWidth;
 
@@ -70,6 +114,16 @@ class Courses extends Component {
   };
 
   render() {
+    const { imageIsReady } = this.state;
+
+    if (!imageIsReady) {
+      return (
+        <div style={{ color: "white", marginLeft: "300px" }}>
+          Loading image...
+        </div>
+      );
+    }
+
     return (
       <>
         <div className={coursesBackground}></div>
