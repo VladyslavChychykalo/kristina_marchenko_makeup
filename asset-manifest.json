@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kristina_marchenko_makeup/static/css/main.5738b05d.chunk.css",
+    "main.css": "/kristina_marchenko_makeup/static/css/main.4e22908b.chunk.css",
     "main.js": "/kristina_marchenko_makeup/static/js/main.71ae9bec.chunk.js",
     "main.js.map": "/kristina_marchenko_makeup/static/js/main.71ae9bec.chunk.js.map",
-    "runtime-main.js": "/kristina_marchenko_makeup/static/js/runtime-main.a517a357.js",
-    "runtime-main.js.map": "/kristina_marchenko_makeup/static/js/runtime-main.a517a357.js.map",
+    "runtime-main.js": "/kristina_marchenko_makeup/static/js/runtime-main.5a5bd133.js",
+    "runtime-main.js.map": "/kristina_marchenko_makeup/static/js/runtime-main.5a5bd133.js.map",
     "static/js/2.0e475f1c.chunk.js": "/kristina_marchenko_makeup/static/js/2.0e475f1c.chunk.js",
     "static/js/2.0e475f1c.chunk.js.map": "/kristina_marchenko_makeup/static/js/2.0e475f1c.chunk.js.map",
     "static/css/3.99f8fa26.chunk.css": "/kristina_marchenko_makeup/static/css/3.99f8fa26.chunk.css",
@@ -16,8 +16,8 @@
     "static/js/5.f08cedb1.chunk.js": "/kristina_marchenko_makeup/static/js/5.f08cedb1.chunk.js",
     "static/js/5.f08cedb1.chunk.js.map": "/kristina_marchenko_makeup/static/js/5.f08cedb1.chunk.js.map",
     "static/css/6.296dc64a.chunk.css": "/kristina_marchenko_makeup/static/css/6.296dc64a.chunk.css",
-    "static/js/6.f002782b.chunk.js": "/kristina_marchenko_makeup/static/js/6.f002782b.chunk.js",
-    "static/js/6.f002782b.chunk.js.map": "/kristina_marchenko_makeup/static/js/6.f002782b.chunk.js.map",
+    "static/js/6.c6133594.chunk.js": "/kristina_marchenko_makeup/static/js/6.c6133594.chunk.js",
+    "static/js/6.c6133594.chunk.js.map": "/kristina_marchenko_makeup/static/js/6.c6133594.chunk.js.map",
     "static/css/7.08f022d6.chunk.css": "/kristina_marchenko_makeup/static/css/7.08f022d6.chunk.css",
     "static/js/7.c3b74f76.chunk.js": "/kristina_marchenko_makeup/static/js/7.c3b74f76.chunk.js",
     "static/js/7.c3b74f76.chunk.js.map": "/kristina_marchenko_makeup/static/js/7.c3b74f76.chunk.js.map",
@@ -43,7 +43,7 @@
     "static/js/14.ebd3eb35.chunk.js": "/kristina_marchenko_makeup/static/js/14.ebd3eb35.chunk.js",
     "static/js/14.ebd3eb35.chunk.js.map": "/kristina_marchenko_makeup/static/js/14.ebd3eb35.chunk.js.map",
     "index.html": "/kristina_marchenko_makeup/index.html",
-    "precache-manifest.43ea9faa6a871646c74ccc26fb535af1.js": "/kristina_marchenko_makeup/precache-manifest.43ea9faa6a871646c74ccc26fb535af1.js",
+    "precache-manifest.e90d6229cb36cfa6ea9646ebb03a5bfd.js": "/kristina_marchenko_makeup/precache-manifest.e90d6229cb36cfa6ea9646ebb03a5bfd.js",
     "service-worker.js": "/kristina_marchenko_makeup/service-worker.js",
     "static/css/10.b3d0ce2a.chunk.css.map": "/kristina_marchenko_makeup/static/css/10.b3d0ce2a.chunk.css.map",
     "static/css/11.cb799887.chunk.css.map": "/kristina_marchenko_makeup/static/css/11.cb799887.chunk.css.map",
@@ -56,7 +56,7 @@
     "static/css/7.08f022d6.chunk.css.map": "/kristina_marchenko_makeup/static/css/7.08f022d6.chunk.css.map",
     "static/css/8.457d04ba.chunk.css.map": "/kristina_marchenko_makeup/static/css/8.457d04ba.chunk.css.map",
     "static/css/9.4d210771.chunk.css.map": "/kristina_marchenko_makeup/static/css/9.4d210771.chunk.css.map",
-    "static/css/main.5738b05d.chunk.css.map": "/kristina_marchenko_makeup/static/css/main.5738b05d.chunk.css.map",
+    "static/css/main.4e22908b.chunk.css.map": "/kristina_marchenko_makeup/static/css/main.4e22908b.chunk.css.map",
     "static/js/2.0e475f1c.chunk.js.LICENSE.txt": "/kristina_marchenko_makeup/static/js/2.0e475f1c.chunk.js.LICENSE.txt",
     "static/js/4.0100ac6b.chunk.js.LICENSE.txt": "/kristina_marchenko_makeup/static/js/4.0100ac6b.chunk.js.LICENSE.txt",
     "static/media/facebookIcon.svg": "/kristina_marchenko_makeup/static/media/facebookIcon.b4aafdf5.svg",
@@ -115,9 +115,9 @@
     "static/media/portfolioImage9.jpg": "/kristina_marchenko_makeup/static/media/portfolioImage9.ad906897.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a517a357.js",
+    "static/js/runtime-main.5a5bd133.js",
     "static/js/4.0100ac6b.chunk.js",
-    "static/css/main.5738b05d.chunk.css",
+    "static/css/main.4e22908b.chunk.css",
     "static/js/main.71ae9bec.chunk.js"
   ]
 }

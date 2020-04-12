@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "841d45e414d9ed8a92aba1132e0d2626",
+    "revision": "aa61b6ce029e9e28911abb8bcb8600c3",
     "url": "/kristina_marchenko_makeup/index.html"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/5.1b7865a2.chunk.css"
   },
   {
-    "revision": "c7f223f71d3377754ac9",
+    "revision": "0eedf64511a485bd8e82",
     "url": "/kristina_marchenko_makeup/static/css/6.296dc64a.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/9.4d210771.chunk.css"
   },
   {
-    "revision": "31cd179ebc9361a3197e",
-    "url": "/kristina_marchenko_makeup/static/css/main.5738b05d.chunk.css"
+    "revision": "59aeb9a50d764cbfb580",
+    "url": "/kristina_marchenko_makeup/static/css/main.4e22908b.chunk.css"
   },
   {
     "revision": "dcb6dd1e9eaaef923ac3",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/5.f08cedb1.chunk.js"
   },
   {
-    "revision": "c7f223f71d3377754ac9",
-    "url": "/kristina_marchenko_makeup/static/js/6.f002782b.chunk.js"
+    "revision": "0eedf64511a485bd8e82",
+    "url": "/kristina_marchenko_makeup/static/js/6.c6133594.chunk.js"
   },
   {
     "revision": "2bba571d5c94ab62ec00",
@@ -112,12 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/9.10404ae7.chunk.js"
   },
   {
-    "revision": "31cd179ebc9361a3197e",
+    "revision": "59aeb9a50d764cbfb580",
     "url": "/kristina_marchenko_makeup/static/js/main.71ae9bec.chunk.js"
   },
   {
-    "revision": "c073592ac0dbb4480c07",
-    "url": "/kristina_marchenko_makeup/static/js/runtime-main.a517a357.js"
+    "revision": "5ea6c3f2ba1f4e2e5e3b",
+    "url": "/kristina_marchenko_makeup/static/js/runtime-main.5a5bd133.js"
   },
   {
     "revision": "b4aafdf57548131d07b2f4a8178cb957",
