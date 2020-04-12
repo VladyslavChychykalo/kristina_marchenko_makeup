@@ -49,6 +49,7 @@
   .servicesList {
     margin: auto;
     width: 600px;
+    padding-left: 100px;
     padding-top: 150px;
     color: #fff;
   }
