@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { link, coursesWrapper, coursesBackground } from "./Courses.module.css";
+import LoaderForComponents from "../LoaderForComponents/LoaderForComponents";
 import { Link } from "react-router-dom";
 import image1 from "../../assets/images/courses/makeupPhoto1.jpg";
 import image2 from "../../assets/images/courses/makeupPhoto2.jpg";
@@ -117,11 +118,12 @@ class Courses extends Component {
     const { imageIsReady } = this.state;
 
     if (!imageIsReady) {
-      return (
-        <div style={{ color: "white", marginLeft: "300px" }}>
-          Loading image...
-        </div>
-      );
+      // return (
+      //   <div style={{ color: "white", marginLeft: "300px" }}>
+      //     Loading image...
+      //   </div>
+      // );
+      return <LoaderForComponents />;
     }
 
     return (
