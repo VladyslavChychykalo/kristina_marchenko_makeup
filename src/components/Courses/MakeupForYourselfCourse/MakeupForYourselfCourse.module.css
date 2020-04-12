@@ -12,6 +12,7 @@
 
 .makeupForYourselfCourseWrapper p {
   margin-bottom: 20px;
+  line-height: 20px;
 }
 
 .makeupForYourselfCourseWrapper button {
@@ -37,6 +38,7 @@
 
   .makeupForYourselfCourseWrapper p {
     font-size: 18px;
+    line-height: 25px;
   }
 
   .makeupForYourselfCourseWrapper ul li {
@@ -56,6 +58,7 @@
 
   .makeupForYourselfCourseWrapper p {
     font-size: 24px;
+    line-height: 30px;
   }
 
   .makeupForYourselfCourseWrapper ul li {
@@ -71,7 +74,7 @@
 @media (min-width: 1200px) {
   .makeupForYourselfCourseWrapper {
     padding-left: 400px;
-    padding-right: 400px;
+    padding-right: 300px;
     color: #fff;
   }
 
@@ -81,6 +84,7 @@
 
   .makeupForYourselfCourseWrapper p {
     font-size: 16px;
+    line-height: 20px;
   }
 
   .makeupForYourselfCourseWrapper ul li {
