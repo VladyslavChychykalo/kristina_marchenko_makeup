@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ModalForPhoto from "../../ModalForPhoto/ModalForPhoto";
-import { imageCard } from "./PhotoCard.module.css";
+import ReactImageAppear from "react-image-appear";
+import { imageCardWrapper, imageCard } from "./PhotoCard.module.css";
 import gallery from "../gallery/gallery";
 
 export default class PhotoCard extends Component {
@@ -46,16 +47,29 @@ export default class PhotoCard extends Component {
 
   render() {
     const { link } = this.props;
+    console.log(this.toggleModal);
 
     return (
       <>
-        <img
+        <div onClick={this.toggleModal} className={imageCardWrapper}>
+          <ReactImageAppear
+            className={imageCard}
+            src={link}
+            showLoader={false}
+            placeholderStyle={{ backgroundColor: "transparent" }}
+            animation="zoomIn"
+            animationDuration="1s"
+            alt="image_makeup"
+          />
+        </div>
+
+        {/* <img
           className={imageCard}
           onClick={this.toggleModal}
           src={link}
           alt="image_makeup"
           loading="lazy"
-        />
+        /> */}
         {this.openModalScreen()}
       </>
     );

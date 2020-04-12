@@ -10,6 +10,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-google-maps": "^9.4.5",
+    "react-image-appear": "^1.2.23",
     "react-loadable": "^5.5.0",
     "react-loader-spinner": "^3.1.14",
     "react-media": "^1.10.0",
