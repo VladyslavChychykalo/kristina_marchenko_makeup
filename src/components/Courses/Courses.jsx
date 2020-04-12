@@ -118,11 +118,6 @@ class Courses extends Component {
     const { imageIsReady } = this.state;
 
     if (!imageIsReady) {
-      // return (
-      //   <div style={{ color: "white", marginLeft: "300px" }}>
-      //     Loading image...
-      //   </div>
-      // );
       return <LoaderForComponents />;
     }
 
