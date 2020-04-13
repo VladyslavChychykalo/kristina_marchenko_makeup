@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: space-between;
   height: 260px;
-  /* padding: 5px 0; */
   background-color: #606060;
   list-style: none;
+  font-family: "PF Din";
 }
 
 .nav {

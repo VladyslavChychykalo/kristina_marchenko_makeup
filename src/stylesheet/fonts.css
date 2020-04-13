@@ -1,0 +1,191 @@
+/* Open Sans */
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-300.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-300italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-300italic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-600.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-italic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-600italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-600italic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-700italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-700italic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-700.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-800.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-800.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-800italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/OpenSans/open-sans-v17-latin-800italic.woff")
+      format("woff");
+}
+
+/* PF Din */
+
+@font-face {
+  font-family: "PF Din";
+  font-style: normal;
+  font-weight: 300;
+  src: local("PF Din Thin"), local("PFDin-Thin"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: italic;
+  font-weight: 300;
+  src: local("PF Din ThinItalic"), local("PFDin-ThinItalic"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PF Din Regular"), local("PFDin-Regular"),
+    url("../assets/fonts/PF_Din/PFDinTextCompPro-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: italic;
+  font-weight: 400;
+  src: local("PF Din Italic"), local("PFDin-Italic"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: normal;
+  font-weight: 600;
+  src: local("PF Din Medium"), local("PFDin-Medium"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: italic;
+  font-weight: 600;
+  src: local("PF Din MedItalic"), local("PFDin-MedItalic"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-MedItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PF Din Bold"), local("PFDin-Bold"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: italic;
+  font-weight: 700;
+  src: local("PF Din BoldItal"), local("PFDin-BoldItal"),
+    url("../assets/fonts/PF_Din/PFDinTextPro-BoldItal.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: normal;
+  font-weight: 800;
+  src: local("PF Din XBlack"), local("PFDin-XBlack"),
+    url("../assets/fonts/PF_Din/PFDinTextCompPro-XBlack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PF Din";
+  font-style: italic;
+  font-weight: 800;
+  src: local("PF Din XBlackItal"), local("PFDin-XBlackItal"),
+    url("../assets/fonts/PF_Din/PFDinTextCompPro-XBlackItal.ttf")
+      format("truetype");
+}
