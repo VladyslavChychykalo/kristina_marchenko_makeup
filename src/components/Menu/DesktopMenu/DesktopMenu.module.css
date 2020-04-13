@@ -1,6 +1,6 @@
 .destopHeaderWrapper {
   font-weight: normal;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   width: 300px;
   height: auto;
   position: fixed;
@@ -35,7 +35,7 @@
 .desktopNavItem {
   text-decoration: none;
   color: #fff;
-  font-size: 19px;
+  font-size: 22px;
   transition: 0.3s ease-in-out;
 }
 
