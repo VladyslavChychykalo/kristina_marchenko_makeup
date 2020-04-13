@@ -48,14 +48,7 @@ class Modal extends Component {
         onKeyPress={() => {}}
       >
         <div className={styles.modal}>
-          <img
-            style={{
-              paddingTop: "10px",
-              paddingBottom: "10px",
-            }}
-            src={gallery[index]}
-            alt="image_makeup"
-          />
+          <img src={gallery[index]} alt="image_makeup" />
           <div className={styles.bntsNavigation}>
             <button
               name="left"
