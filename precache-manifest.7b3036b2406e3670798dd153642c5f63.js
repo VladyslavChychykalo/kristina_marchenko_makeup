@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2e1bf92f7464ee8dfc552f65e92a034",
+    "revision": "090711324f872d9fd2bec6db3faf36aa",
     "url": "/kristina_marchenko_makeup/index.html"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/15.f8cb02ed.chunk.css"
   },
   {
-    "revision": "34b866563f4c9e4b3137",
-    "url": "/kristina_marchenko_makeup/static/css/3.99f8fa26.chunk.css"
+    "revision": "419a2aa871485eaa3527",
+    "url": "/kristina_marchenko_makeup/static/css/3.10d8f7f6.chunk.css"
   },
   {
     "revision": "be80e072fabc6e562980",
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/7.1b7865a2.chunk.css"
   },
   {
-    "revision": "83e478315db672bec077",
+    "revision": "e44784097ef34d0921ad",
     "url": "/kristina_marchenko_makeup/static/css/8.52e11892.chunk.css"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/2.248b301a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34b866563f4c9e4b3137",
+    "revision": "419a2aa871485eaa3527",
     "url": "/kristina_marchenko_makeup/static/js/3.0f707ae1.chunk.js"
   },
   {
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/7.7957444c.chunk.js"
   },
   {
-    "revision": "83e478315db672bec077",
-    "url": "/kristina_marchenko_makeup/static/js/8.a4c35175.chunk.js"
+    "revision": "e44784097ef34d0921ad",
+    "url": "/kristina_marchenko_makeup/static/js/8.da235dbf.chunk.js"
   },
   {
     "revision": "a05a129a2205287a30af",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/main.f78b2b43.chunk.js"
   },
   {
-    "revision": "ba063c2ba246b9282563",
-    "url": "/kristina_marchenko_makeup/static/js/runtime-main.56d7f831.js"
+    "revision": "84edf0976fdf9c949a6b",
+    "url": "/kristina_marchenko_makeup/static/js/runtime-main.dfb195f1.js"
   },
   {
     "revision": "c379922c7a1e1baf3dd95d4fc61899a8",
