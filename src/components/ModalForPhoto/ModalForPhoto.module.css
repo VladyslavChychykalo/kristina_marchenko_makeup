@@ -24,7 +24,7 @@
   transform: translate(-50%, -50%);
 }
 
-button {
+.modal button {
   background-color: transparent;
   border: none;
   color: #ffffff;
@@ -32,14 +32,14 @@ button {
   position: absolute;
 }
 
-button:first-of-type {
+.modal button:first-of-type {
   top: 50%;
   left: 30px;
   transform: translateX(-50%);
   transform: rotate(180deg);
 }
 
-button:last-of-type {
+.modal button:last-of-type {
   top: 50%;
   right: 30px;
   transform: translateX(-50%);
