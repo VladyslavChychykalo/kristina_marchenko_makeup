@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f06e79307fac853c743ca5f5a8157998",
+    "revision": "90ec681a2935a97d8ab61f568e7c6bd6",
     "url": "/kristina_marchenko_makeup/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/css/15.f8cb02ed.chunk.css"
   },
   {
-    "revision": "850258e92dbfb19cad70",
+    "revision": "0d32574455e11f2a6b76",
     "url": "/kristina_marchenko_makeup/static/css/3.10d8f7f6.chunk.css"
   },
   {
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/2.248b301a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "850258e92dbfb19cad70",
-    "url": "/kristina_marchenko_makeup/static/js/3.1dde809e.chunk.js"
+    "revision": "0d32574455e11f2a6b76",
+    "url": "/kristina_marchenko_makeup/static/js/3.ef4ca896.chunk.js"
   },
   {
     "revision": "0d482700de875f42dfa2",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kristina_marchenko_makeup/static/js/main.f78b2b43.chunk.js"
   },
   {
-    "revision": "fb779319a0994c5e216f",
-    "url": "/kristina_marchenko_makeup/static/js/runtime-main.fd20d211.js"
+    "revision": "5e4e45cc8f41209d98b9",
+    "url": "/kristina_marchenko_makeup/static/js/runtime-main.9603defc.js"
   },
   {
     "revision": "c379922c7a1e1baf3dd95d4fc61899a8",
