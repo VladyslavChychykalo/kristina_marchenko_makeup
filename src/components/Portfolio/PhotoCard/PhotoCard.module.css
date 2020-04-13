@@ -1,8 +1,16 @@
+/* == */
+.imageCardWrapper {
+  display: flex;
+  justify-content: center;
+}
+/* == */
+
 .imageCard {
   max-width: 100%;
   margin-top: 20px;
   cursor: pointer;
-  z-index: 10000;
+  /* == */
+  z-index: 1000;
 }
 
 @media (min-width: 768px) {
