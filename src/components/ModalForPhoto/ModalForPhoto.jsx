@@ -49,24 +49,22 @@ class Modal extends Component {
       >
         <div className={styles.modal}>
           <img src={gallery[index]} alt="image_makeup" />
-          <div className={styles.bntsNavigation}>
-            <button
-              name="left"
-              onClick={({ target }) => this.handleTakeValue(target)}
-              type="button"
-              disabled={!index}
-            >
-              ➤
-            </button>
-            <button
-              name="right"
-              onClick={({ target }) => this.handleTakeValue(target)}
-              type="button"
-              disabled={index >= gallery.length - 1}
-            >
-              ➤
-            </button>
-          </div>
+          <button
+            name="left"
+            onClick={({ target }) => this.handleTakeValue(target)}
+            type="button"
+            disabled={!index}
+          >
+            ➤
+          </button>
+          <button
+            name="right"
+            onClick={({ target }) => this.handleTakeValue(target)}
+            type="button"
+            disabled={index >= gallery.length - 1}
+          >
+            ➤
+          </button>
         </div>
       </div>
     );
