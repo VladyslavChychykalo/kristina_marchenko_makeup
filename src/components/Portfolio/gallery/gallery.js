@@ -14,6 +14,7 @@ import portfolioImage13 from "../../../assets/images/portfolio/portfolioImage13.
 import portfolioImage14 from "../../../assets/images/portfolio/portfolioImage14.jpg";
 import portfolioImage15 from "../../../assets/images/portfolio/portfolioImage15.jpg";
 import portfolioImage16 from "../../../assets/images/portfolio/portfolioImage16.jpg";
+import portfolioImage17 from "../../../assets/images/portfolio/portfolioImage17.jpg";
 import portfolioImage18 from "../../../assets/images/portfolio/portfolioImage18.jpg";
 import portfolioImage19 from "../../../assets/images/portfolio/portfolioImage19.jpg";
 import portfolioImage20 from "../../../assets/images/portfolio/portfolioImage20.jpg";
@@ -37,7 +38,6 @@ import portfolioImage37 from "../../../assets/images/portfolio/portfolioImage37.
 import portfolioImage38 from "../../../assets/images/portfolio/portfolioImage38.jpg";
 import portfolioImage39 from "../../../assets/images/portfolio/portfolioImage39.jpg";
 import portfolioImage40 from "../../../assets/images/portfolio/portfolioImage40.jpg";
-// import portfolioImage17 from "../../../assets/images/portfolio/portfolioImage17.jpg";
 
 const gallery = [
   portfolioImage1,
@@ -56,7 +56,7 @@ const gallery = [
   portfolioImage14,
   portfolioImage15,
   portfolioImage16,
-  // portfolioImage17,
+  portfolioImage17,
   portfolioImage18,
   portfolioImage19,
   portfolioImage20,
