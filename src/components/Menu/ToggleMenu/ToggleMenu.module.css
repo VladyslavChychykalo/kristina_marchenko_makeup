@@ -1,6 +1,8 @@
 .buttonToggle {
-  padding-top: 20px;
+  padding-top: 15px;
   font-family: "PF Din";
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .buttonToggle button {
