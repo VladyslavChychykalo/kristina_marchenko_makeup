@@ -47,18 +47,8 @@
 
 @media (min-width: 768px) {
   .modal img {
-    max-height: 900px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .modal img {
-    max-height: 1200px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .modal img {
-    height: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
   }
 }
