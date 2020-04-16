@@ -38,6 +38,9 @@
 
   .homeWrapper div {
     width: auto;
+    /* ============= */
+    height: 100vh;
+    /* ============= */
   }
 
   .homeWrapper {
