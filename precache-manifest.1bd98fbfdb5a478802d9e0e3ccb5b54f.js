@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2870f7a7f734289d458440a4ea7e533c",
+    "revision": "e67840d9fe8c8d2864ec31e7cca2b9c9",
     "url": "/kristina_marchenko_makeup/index.html"
   },
   {
