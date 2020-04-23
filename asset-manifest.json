@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kristina_marchenko_makeup/static/css/main.d5f8f891.chunk.css",
+    "main.css": "/kristina_marchenko_makeup/static/css/main.c6d4544e.chunk.css",
     "main.js": "/kristina_marchenko_makeup/static/js/main.f78b2b43.chunk.js",
     "main.js.map": "/kristina_marchenko_makeup/static/js/main.f78b2b43.chunk.js.map",
     "runtime-main.js": "/kristina_marchenko_makeup/static/js/runtime-main.559f28b9.js",
@@ -46,7 +46,7 @@
     "static/js/15.7246411f.chunk.js": "/kristina_marchenko_makeup/static/js/15.7246411f.chunk.js",
     "static/js/15.7246411f.chunk.js.map": "/kristina_marchenko_makeup/static/js/15.7246411f.chunk.js.map",
     "index.html": "/kristina_marchenko_makeup/index.html",
-    "precache-manifest.242c80eb93cb6db8cc67400c3b439cac.js": "/kristina_marchenko_makeup/precache-manifest.242c80eb93cb6db8cc67400c3b439cac.js",
+    "precache-manifest.c7ba7cb0bb3bbf13e8bd83cd21543958.js": "/kristina_marchenko_makeup/precache-manifest.c7ba7cb0bb3bbf13e8bd83cd21543958.js",
     "service-worker.js": "/kristina_marchenko_makeup/service-worker.js",
     "static/css/10.10c930fe.chunk.css.map": "/kristina_marchenko_makeup/static/css/10.10c930fe.chunk.css.map",
     "static/css/11.b2ef4853.chunk.css.map": "/kristina_marchenko_makeup/static/css/11.b2ef4853.chunk.css.map",
@@ -60,7 +60,7 @@
     "static/css/7.f0bbcf50.chunk.css.map": "/kristina_marchenko_makeup/static/css/7.f0bbcf50.chunk.css.map",
     "static/css/8.66eb644d.chunk.css.map": "/kristina_marchenko_makeup/static/css/8.66eb644d.chunk.css.map",
     "static/css/9.457d04ba.chunk.css.map": "/kristina_marchenko_makeup/static/css/9.457d04ba.chunk.css.map",
-    "static/css/main.d5f8f891.chunk.css.map": "/kristina_marchenko_makeup/static/css/main.d5f8f891.chunk.css.map",
+    "static/css/main.c6d4544e.chunk.css.map": "/kristina_marchenko_makeup/static/css/main.c6d4544e.chunk.css.map",
     "static/js/2.248b301a.chunk.js.LICENSE.txt": "/kristina_marchenko_makeup/static/js/2.248b301a.chunk.js.LICENSE.txt",
     "static/js/4.d86624e0.chunk.js.LICENSE.txt": "/kristina_marchenko_makeup/static/js/4.d86624e0.chunk.js.LICENSE.txt",
     "static/media/main.css": "/kristina_marchenko_makeup/static/media/open-sans-v17-latin-regular.de0869e3.woff",
@@ -122,7 +122,7 @@
   "entrypoints": [
     "static/js/runtime-main.559f28b9.js",
     "static/js/4.d86624e0.chunk.js",
-    "static/css/main.d5f8f891.chunk.css",
+    "static/css/main.c6d4544e.chunk.css",
     "static/js/main.f78b2b43.chunk.js"
   ]
 }
