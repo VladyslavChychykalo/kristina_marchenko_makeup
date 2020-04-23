@@ -1,9 +1,9 @@
 import React from "react";
-import WrappedMap from "./Map/Map";
+// import WrappedMap from "./Map/Map";
 import SocialLinks from "./SocialLinks/SocialLinks";
 import {
   mapWrapper,
-  map,
+  // map,
   info,
   contactsWrapper,
   contactsBackgrond,
@@ -23,12 +23,12 @@ const Contacts = () => (
       </p>
       <SocialLinks />
       <div className={mapWrapper}>
-        <WrappedMap
+        {/* <WrappedMap
           googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyA3CJD6gvJpBLfx0Az0UzQ3ipdcy-TqdME&v=3.exp&libraries=geometry,drawing,places`}
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div className={map} />}
           mapElement={<div style={{ height: `100%` }} />}
-        />
+        /> */}
       </div>
     </div>
   </>
