@@ -1,6 +1,7 @@
 import React from "react";
 import WrappedMap from "./Map/Map";
 import SocialLinks from "./SocialLinks/SocialLinks";
+import { Helmet } from "react-helmet";
 import {
   mapWrapper,
   map,
@@ -10,7 +11,20 @@ import {
 } from "./Contacts.module.css";
 
 const Contacts = () => (
-  <>
+  <div>
+    <Helmet>
+      <title>Контакты</title>
+      <link
+        rel="canonical"
+        href="http://www.makeupschoolmarchenko.com.ua/#/contacts"
+      />
+      <meta
+        name="description"
+        content="Метро Печерская, ул. Евгения
+        Коновальца,36 е"
+      />
+    </Helmet>
+
     <div className={contactsBackgrond}></div>
     <div className={contactsWrapper}>
       <p className={info}>
@@ -31,7 +45,7 @@ const Contacts = () => (
         />
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default Contacts;

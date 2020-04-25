@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 import {
   backGround,
   imageCard,
@@ -55,7 +56,21 @@ export default class Home extends Component {
     document.documentElement.style.setProperty("--vh", `${vh}px`);
 
     return (
-      <>
+      <div>
+        <Helmet>
+          <title>Главная</title>
+          <link
+            rel="canonical"
+            href="http://www.makeupschoolmarchenko.com.ua/#/home"
+          />
+          <meta
+            name="description"
+            content="ОБУЧЕНИЕ ВИЗАЖИСТОВ: БАЗОВЫЙ КУРС, ПОВЫШЕНИЕ КВАЛИФИКАЦИИ
+      КУРС «МАКИЯЖ ДЛЯ СЕБЯ»
+      КУРС ПО ПРИЧЕСКАМ"
+          />
+        </Helmet>
+
         <div className={backGround}></div>
         <TransitionGroup className={homeWrapper}>
           <CSSTransition
@@ -74,7 +89,7 @@ export default class Home extends Component {
             </div>
           </CSSTransition>
         </TransitionGroup>
-      </>
+      </div>
     );
   }
 }

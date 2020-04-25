@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 import Media from "react-media";
 import { link, coursesWrapper, coursesBackground } from "./Courses.module.css";
 import LoaderForComponents from "../LoaderForComponents/LoaderForComponents";
@@ -101,7 +102,16 @@ class Courses extends Component {
     }
 
     return (
-      <>
+      <div>
+        <Helmet>
+          <title>Курсы</title>
+          <link
+            rel="canonical"
+            href="http://www.makeupschoolmarchenko.com.ua/#/courses"
+          />
+          <meta name="description" content="Выберите подходящий курсы" />
+        </Helmet>
+
         <div className={coursesBackground}></div>
         <ul className={coursesWrapper}>
           <Media queries={{ small: { minWidth: 1199 } }}>
@@ -139,7 +149,7 @@ class Courses extends Component {
             </li>
           ))}
         </ul>
-      </>
+      </div>
     );
   }
 }

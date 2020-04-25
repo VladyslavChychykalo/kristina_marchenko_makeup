@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 import Loadable from "react-loadable";
 import Loader from "../Loader/Loader";
 import { CSSTransition } from "react-transition-group";
@@ -42,7 +43,16 @@ class Portfolio extends Component {
     const { isAppear } = this.state;
 
     return (
-      <>
+      <div>
+        <Helmet>
+          <title>Портфолио</title>
+          <link
+            rel="canonical"
+            href="http://www.makeupschoolmarchenko.com.ua/#/portfolio"
+          />
+          <meta name="description" content="Портфолио" />
+        </Helmet>
+
         <div className={portfolioBackground}></div>
         <ul className={portfolioWrapper}>
           {gallery.map((el) => (
@@ -59,7 +69,7 @@ class Portfolio extends Component {
         >
           <ButtonUp onTop={this.scrollOnTop} />
         </CSSTransition>
-      </>
+      </div>
     );
   }
 }
