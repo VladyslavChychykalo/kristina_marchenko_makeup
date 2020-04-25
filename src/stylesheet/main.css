@@ -30,11 +30,6 @@ button:focus {
   outline: none;
 }
 
-.__react_component_tooltip.type-dark {
-  background: var(--bg-color-dark-blue);
-  opacity: 1;
-}
-
 @media screen and (min-width: 1200px) {
   html {
     background-color: #606060;
