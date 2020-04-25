@@ -6,7 +6,7 @@
   height: 260px;
   background-color: #606060;
   list-style: none;
-  font-family: "PF Din";
+  font-family: "PF Din", Oswald, sans-serif;
 }
 
 .nav {
