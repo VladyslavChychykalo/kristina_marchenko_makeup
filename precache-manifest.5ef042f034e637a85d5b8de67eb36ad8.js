@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef3f6b9c3d7a7dc7dd90a68ecb04a303",
+    "revision": "4abd724aea4b2a1622e6c664cccd6eae",
     "url": "/index.html"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/9.66eb644d.chunk.css"
   },
   {
-    "revision": "ae7e2865901230a7143a",
-    "url": "/static/css/main.4e23a006.chunk.css"
+    "revision": "ac098ecac5faa4e99328",
+    "url": "/static/css/main.e8cbf805.chunk.css"
   },
   {
     "revision": "d14bed1c853b80db21cc",
@@ -124,52 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/9.210076d2.chunk.js"
   },
   {
-    "revision": "ae7e2865901230a7143a",
+    "revision": "ac098ecac5faa4e99328",
     "url": "/static/js/main.8b4c6293.chunk.js"
   },
   {
     "revision": "7bb3fa5f71d82c90dd06",
     "url": "/static/js/runtime-main.866c16c7.js"
-  },
-  {
-    "revision": "c379922c7a1e1baf3dd95d4fc61899a8",
-    "url": "/static/media/PFDinTextCompPro-Regular.c379922c.ttf"
-  },
-  {
-    "revision": "8bd917dfb757b1432bc5cc96bf7b24f0",
-    "url": "/static/media/PFDinTextCompPro-XBlack.8bd917df.ttf"
-  },
-  {
-    "revision": "763db417cfdb9927ffc5c1c285fe6c32",
-    "url": "/static/media/PFDinTextCompPro-XBlackItal.763db417.ttf"
-  },
-  {
-    "revision": "a8f8519444ad397cc6f0854972a090cb",
-    "url": "/static/media/PFDinTextPro-Bold.a8f85194.ttf"
-  },
-  {
-    "revision": "b8bf27bf9fa7dba4a1952ab2c3a12cb3",
-    "url": "/static/media/PFDinTextPro-BoldItal.b8bf27bf.ttf"
-  },
-  {
-    "revision": "616b39d4e46010e89b4b0e5c6c81ddd2",
-    "url": "/static/media/PFDinTextPro-Italic.616b39d4.ttf"
-  },
-  {
-    "revision": "00a2e23941ba19e68c3e6640c40246e9",
-    "url": "/static/media/PFDinTextPro-MedItalic.00a2e239.ttf"
-  },
-  {
-    "revision": "91ed9a01fbe8936ffd81d0b62400c999",
-    "url": "/static/media/PFDinTextPro-Medium.91ed9a01.ttf"
-  },
-  {
-    "revision": "ca0c8d76771ee66f274ea8aa4f4c8b10",
-    "url": "/static/media/PFDinTextPro-Thin.ca0c8d76.ttf"
-  },
-  {
-    "revision": "fea1f9268b30d75a4b12866b202abc5e",
-    "url": "/static/media/PFDinTextPro-ThinItalic.fea1f926.ttf"
   },
   {
     "revision": "b4aafdf57548131d07b2f4a8178cb957",
@@ -226,206 +186,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc706bae89bb2bcca5f8822d818e95cf",
     "url": "/static/media/makeupPhoto6.fc706bae.jpg"
-  },
-  {
-    "revision": "24f7b0944e9e03a905f9d7701573b2cd",
-    "url": "/static/media/open-sans-v17-latin-300.24f7b094.woff2"
-  },
-  {
-    "revision": "a7622f60c56ddd5301549a786b54e6e6",
-    "url": "/static/media/open-sans-v17-latin-300.a7622f60.woff"
-  },
-  {
-    "revision": "6725c3fb1f3abd7ebdcb2d244758f706",
-    "url": "/static/media/open-sans-v17-latin-300italic.6725c3fb.woff2"
-  },
-  {
-    "revision": "793b1237017aeacd646fb80911425566",
-    "url": "/static/media/open-sans-v17-latin-300italic.793b1237.woff"
-  },
-  {
-    "revision": "449d681cd6006390e1bee3c3a660430b",
-    "url": "/static/media/open-sans-v17-latin-600.449d681c.woff"
-  },
-  {
-    "revision": "819af3d3abdc9f135d49b80a91e2ff4c",
-    "url": "/static/media/open-sans-v17-latin-600.819af3d3.woff2"
-  },
-  {
-    "revision": "56e5756b696615d6164a625e1bcb1a9e",
-    "url": "/static/media/open-sans-v17-latin-600italic.56e5756b.woff"
-  },
-  {
-    "revision": "ebdfa24cb411ba3016abd1c3ea5746e5",
-    "url": "/static/media/open-sans-v17-latin-600italic.ebdfa24c.woff2"
-  },
-  {
-    "revision": "0edb76284a7a0f8db4665b560ee2b48f",
-    "url": "/static/media/open-sans-v17-latin-700.0edb7628.woff2"
-  },
-  {
-    "revision": "1f85e92d8ff443980bc0f83ad7b23b60",
-    "url": "/static/media/open-sans-v17-latin-700.1f85e92d.woff"
-  },
-  {
-    "revision": "a49393f2171a2f4d6927ce6c14f73dbc",
-    "url": "/static/media/open-sans-v17-latin-700italic.a49393f2.woff2"
-  },
-  {
-    "revision": "bf72679ca22e53320beaea090e8bb07d",
-    "url": "/static/media/open-sans-v17-latin-700italic.bf72679c.woff"
-  },
-  {
-    "revision": "05ebdbe10796850f045fcd484f35788d",
-    "url": "/static/media/open-sans-v17-latin-800.05ebdbe1.woff"
-  },
-  {
-    "revision": "ab3e500e7375695d702cff19513e4470",
-    "url": "/static/media/open-sans-v17-latin-800.ab3e500e.woff2"
-  },
-  {
-    "revision": "92da6f116d973bd334cf9b3afdb29c4f",
-    "url": "/static/media/open-sans-v17-latin-800italic.92da6f11.woff"
-  },
-  {
-    "revision": "c62c3eea77cf3fca51494e8c924adf4d",
-    "url": "/static/media/open-sans-v17-latin-800italic.c62c3eea.woff2"
-  },
-  {
-    "revision": "06b4bfda4e139eaf3ab9872a6d66f42f",
-    "url": "/static/media/open-sans-v17-latin-italic.06b4bfda.woff"
-  },
-  {
-    "revision": "b61a9055d92ac56c15cacf4271d4f072",
-    "url": "/static/media/open-sans-v17-latin-italic.b61a9055.woff2"
-  },
-  {
-    "revision": "33543c5cc5d88f5695dd08c87d280dfd",
-    "url": "/static/media/open-sans-v17-latin-regular.33543c5c.woff2"
-  },
-  {
-    "revision": "de0869e324680c99efa1250515b4b41c",
-    "url": "/static/media/open-sans-v17-latin-regular.de0869e3.woff"
-  },
-  {
-    "revision": "5cc7d7ee406e32dbaa00a811be2956f2",
-    "url": "/static/media/oswald-v31-latin-200.5cc7d7ee.woff"
-  },
-  {
-    "revision": "6cabbbc8becd23d64515a8cd6b50ad8a",
-    "url": "/static/media/oswald-v31-latin-200.6cabbbc8.woff2"
-  },
-  {
-    "revision": "81dde49472b78aa6fb3f6886dde94cac",
-    "url": "/static/media/oswald-v31-latin-200.81dde494.eot"
-  },
-  {
-    "revision": "97a1f59401a0d12fb413df0e0ab7524f",
-    "url": "/static/media/oswald-v31-latin-200.97a1f594.ttf"
-  },
-  {
-    "revision": "b744f00031dd7562f0db86fc7e5abd74",
-    "url": "/static/media/oswald-v31-latin-200.b744f000.svg"
-  },
-  {
-    "revision": "34bd8be6a179b0547377d9399a45eaa0",
-    "url": "/static/media/oswald-v31-latin-300.34bd8be6.woff"
-  },
-  {
-    "revision": "650aac5096a5ffc76dc84e762acff206",
-    "url": "/static/media/oswald-v31-latin-300.650aac50.woff2"
-  },
-  {
-    "revision": "6ba8c3e1fb910cd545faf45c5306f20e",
-    "url": "/static/media/oswald-v31-latin-300.6ba8c3e1.eot"
-  },
-  {
-    "revision": "a240fb09ff42f2165fe3eef4c7cefb24",
-    "url": "/static/media/oswald-v31-latin-300.a240fb09.svg"
-  },
-  {
-    "revision": "c3a6d56debde68f045bbc4fb7be3944c",
-    "url": "/static/media/oswald-v31-latin-300.c3a6d56d.ttf"
-  },
-  {
-    "revision": "2cb2332cb77b34e5aa81eeff59b6f4c0",
-    "url": "/static/media/oswald-v31-latin-500.2cb2332c.eot"
-  },
-  {
-    "revision": "5937c6cb6a7ad1219eca4204286dd3b2",
-    "url": "/static/media/oswald-v31-latin-500.5937c6cb.woff"
-  },
-  {
-    "revision": "b296114f38cecb156ca8f8edc3e36654",
-    "url": "/static/media/oswald-v31-latin-500.b296114f.ttf"
-  },
-  {
-    "revision": "b7ce0f303c0587004ba9590124f3e21b",
-    "url": "/static/media/oswald-v31-latin-500.b7ce0f30.woff2"
-  },
-  {
-    "revision": "df6fe3bad375ddeeddf7fcbf2d86725b",
-    "url": "/static/media/oswald-v31-latin-500.df6fe3ba.svg"
-  },
-  {
-    "revision": "6a98169ce7d291e352b05f574181e0bc",
-    "url": "/static/media/oswald-v31-latin-600.6a98169c.woff"
-  },
-  {
-    "revision": "c86f7df28ab1432da37c2276638fcf09",
-    "url": "/static/media/oswald-v31-latin-600.c86f7df2.woff2"
-  },
-  {
-    "revision": "c8aca399820cc25aaee0ae5264a803fd",
-    "url": "/static/media/oswald-v31-latin-600.c8aca399.svg"
-  },
-  {
-    "revision": "f2fec2bb103f913f7ec4e16b1ed1d418",
-    "url": "/static/media/oswald-v31-latin-600.f2fec2bb.ttf"
-  },
-  {
-    "revision": "fc27a6664d49e66136529c425f5785b6",
-    "url": "/static/media/oswald-v31-latin-600.fc27a666.eot"
-  },
-  {
-    "revision": "1b8a94781c774bfaf851db3566952307",
-    "url": "/static/media/oswald-v31-latin-700.1b8a9478.svg"
-  },
-  {
-    "revision": "2580d38026677c2acc06fc528693f5d2",
-    "url": "/static/media/oswald-v31-latin-700.2580d380.eot"
-  },
-  {
-    "revision": "7c915161ba6ba5f3f0b00c8f0708eaa9",
-    "url": "/static/media/oswald-v31-latin-700.7c915161.woff2"
-  },
-  {
-    "revision": "c93625b557a32ebeb334b05dab8e4728",
-    "url": "/static/media/oswald-v31-latin-700.c93625b5.woff"
-  },
-  {
-    "revision": "eb7eb1a33ec652ec157e13d7ba6c9ebb",
-    "url": "/static/media/oswald-v31-latin-700.eb7eb1a3.ttf"
-  },
-  {
-    "revision": "0e88ec239d6256e2c889df2e3f0d51f2",
-    "url": "/static/media/oswald-v31-latin-regular.0e88ec23.woff"
-  },
-  {
-    "revision": "3f22213236dacb926063ad70c8dc946e",
-    "url": "/static/media/oswald-v31-latin-regular.3f222132.eot"
-  },
-  {
-    "revision": "dc872e68995b6f6a0a24f013ff750c50",
-    "url": "/static/media/oswald-v31-latin-regular.dc872e68.svg"
-  },
-  {
-    "revision": "f3655d2e126fb0891c94407ce82bea4b",
-    "url": "/static/media/oswald-v31-latin-regular.f3655d2e.woff2"
-  },
-  {
-    "revision": "fd2acbaf6dee51d0127b36a908fa50c1",
-    "url": "/static/media/oswald-v31-latin-regular.fd2acbaf.ttf"
   },
   {
     "revision": "ae87dfe2f734d9619178a7a367d6ac3c",
