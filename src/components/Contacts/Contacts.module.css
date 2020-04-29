@@ -1,23 +1,50 @@
-.contactsWrapper {
+.contactsOverlay {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  color: #fff;
-  padding: 30px 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 20px;
 }
 
-.info {
-  margin-bottom: 30px;
+.contactsWrapper {
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  padding-top: 10px;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 100%;
 }
 
-.info:nth-child(3) {
-  text-align: center;
+.contactsInfo a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #32cd32;
+  margin-bottom: 10px;
+}
+
+.contactsInfo a:nth-of-type(2) {
+  margin-bottom: 0;
 }
 
 .mapWrapper {
-  margin-top: 50px;
-  width: 100vw;
-  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.contactsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsInfo p {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .map {
@@ -25,53 +52,51 @@
 }
 
 @media (min-width: 768px) {
-  .info {
-    font-size: 28px;
+  .contactsWrapper {
+    padding: 10px;
+  }
+
+  .contactsInfo p {
+    font-size: 20px;
   }
 
   .map {
     height: 600px;
   }
-
-  .mapWrapper {
-    padding: 0 15px;
-  }
 }
 
 @media (min-width: 1024px) {
-  .info {
-    font-size: 32px;
+  .contactsInfo p {
+    font-size: 26px;
   }
 
   .map {
-    height: 800px;
+    height: 600px;
   }
 }
 
 @media (min-width: 1200px) {
-  .contactsBackgrond {
-    position: fixed;
-    top: 0;
-    left: 0;
+  .contactsOverlay {
     width: 100%;
-    height: 100%;
-    background-color: #606060;
-    z-index: -1;
+    padding-bottom: 20px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
   }
 
   .contactsWrapper {
-    margin: auto;
-    margin-left: 300px;
-    width: 100%;
-    color: #fff;
+    padding: 15px;
+    padding-top: 20px;
+    margin-top: 30px;
+    max-width: 730px;
   }
 
   .mapWrapper {
-    margin-top: 50px;
-    max-width: 900px;
+    margin: auto;
+    margin-top: 30px;
   }
 
-  .info {
-    font-size: 16px;
+  .contactsInfo p {
+    font-size: 19px;
   }
 }

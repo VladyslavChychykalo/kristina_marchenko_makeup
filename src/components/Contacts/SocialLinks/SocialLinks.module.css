@@ -1,3 +1,9 @@
+.socialIocns {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .link {
   fill: #fff;
   transition: fill 500ms;
@@ -22,17 +28,12 @@
 
 @media (min-width: 768px) {
   .socialLink {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
   }
 }
 
 @media (min-width: 1200px) {
-  .socialLink {
-    width: 40px;
-    height: 40px;
-  }
-
   .link {
     fill: #fff;
     transition: fill 500ms;

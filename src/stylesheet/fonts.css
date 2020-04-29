@@ -1,6 +1,6 @@
 /* Open Sans */
 
-@font-face {
+/* @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
@@ -104,11 +104,11 @@
       format("woff2"),
     url("../assets/fonts/OpenSans/open-sans-v17-latin-800italic.woff")
       format("woff");
-}
+} */
 
 /* PF Din */
 
-@font-face {
+/* @font-face {
   font-family: "PF Din";
   font-style: normal;
   font-weight: 300;
@@ -188,11 +188,11 @@
   src: local("PF Din XBlackItal"), local("PFDin-XBlackItal"),
     url("../assets/fonts/PF_Din/PFDinTextCompPro-XBlackItal.ttf")
       format("truetype");
-}
+} */
 
 /* Oswald */
 
-@font-face {
+/* @font-face {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
@@ -276,4 +276,4 @@
     url("../assets/fonts/Oswald/oswald-v31-latin-700.woff") format("woff"),
     url("../assets/fonts/Oswald/oswald-v31-latin-700.ttf") format("truetype"),
     url("../assets/fonts/Oswald/oswald-v31-latin-700.svg#Oswald") format("svg");
-}
+} */

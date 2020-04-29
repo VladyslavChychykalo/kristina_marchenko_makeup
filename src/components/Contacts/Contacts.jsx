@@ -1,51 +1,42 @@
 import React from "react";
 import WrappedMap from "./Map/Map";
 import SocialLinks from "./SocialLinks/SocialLinks";
-import { Helmet } from "react-helmet";
 import {
   mapWrapper,
   map,
-  info,
+  contactsBackground,
   contactsWrapper,
-  contactsBackgrond,
+  contactsInfo,
+  contactsOverlay,
 } from "./Contacts.module.css";
 
 const Contacts = () => (
-  <div>
-    <Helmet>
-      <title>Контакты</title>
-      <link
-        rel="canonical"
-        href="http://www.makeupschoolmarchenko.com.ua/#/contacts"
-      />
-      <meta
-        name="description"
-        content="Метро Печерская, ул. Евгения
-        Коновальца,36 е"
-      />
-    </Helmet>
-
-    <div className={contactsBackgrond}></div>
-    <div className={contactsWrapper}>
-      <p className={info}>
-        Контактный номер: <a href="tel:+380970003090">(097)000-30-90</a>
-      </p>
-      <p className={info}>Почта: 309072@gmail.com</p>
-      <p className={info}>
-        Адрес: студия находится в 5-ти минутах от метро Печерская, ул. Евгения
-        Коновальца,36 е
-      </p>
-      <SocialLinks />
-      <div className={mapWrapper}>
-        <WrappedMap
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyA3CJD6gvJpBLfx0Az0UzQ3ipdcy-TqdME&v=3.exp&libraries=geometry,drawing,places`}
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div className={map} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        />
+  <>
+    <div className={contactsBackground}></div>
+    <div className={contactsOverlay}>
+      <div className={contactsWrapper}>
+        <div className={contactsInfo}>
+          <p>
+            Контактный номер: <a href="tel:+380970003090">(097)000-30-90</a>
+          </p>
+          <p>Почта: 309072@gmail.com</p>
+          <p>
+            Адрес: студия находится в 5-ти минутах от метро Печерская, ул.
+            Евгения Коновальца,36 е
+          </p>
+        </div>
+        <SocialLinks />
+        <div className={mapWrapper}>
+          <WrappedMap
+            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyA3CJD6gvJpBLfx0Az0UzQ3ipdcy-TqdME&v=3.exp&libraries=geometry,drawing,places`}
+            loadingElement={<div style={{ height: `100%` }} />}
+            containerElement={<div className={map} />}
+            mapElement={<div style={{ height: `100%` }} />}
+          />
+        </div>
       </div>
     </div>
-  </div>
+  </>
 );
 
 export default Contacts;
