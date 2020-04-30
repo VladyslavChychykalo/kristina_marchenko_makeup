@@ -11,7 +11,7 @@ const MakeupForYourselfCourse = () => (
     <div className={coursesBackground}></div>
     <div className={makeupForYourselfCourseWrapper}>
       <img src="" alt="" />
-      <h3>Курс "макияжа для себя"</h3>
+      <h3>Курс "макияж для себя"</h3>
       <p>1 индивидуальный урок (2-3 часа) - 1500грн.</p>
       <p>Курс из 5 индивидуальных занятий - 4000грн.</p>
       <p>
