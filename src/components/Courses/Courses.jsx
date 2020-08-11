@@ -4,12 +4,12 @@ import Media from "react-media";
 import { link, coursesWrapper, coursesBackground } from "./Courses.module.css";
 import LoaderForComponents from "../LoaderForComponents/LoaderForComponents";
 import { Link } from "react-router-dom";
-import image1 from "../../assets/images/courses/makeupPhoto1.jpg";
-import image2 from "../../assets/images/courses/makeupPhoto2.jpg";
-import image3 from "../../assets/images/courses/makeupPhoto3.jpg";
-import image4 from "../../assets/images/courses/makeupPhoto4.jpg";
-import image5 from "../../assets/images/courses/makeupPhoto5.jpg";
-import image6 from "../../assets/images/courses/makeupPhoto6.jpg";
+import image1 from "../../assets/images/courses/makeupPhoto1.JPG";
+import image2 from "../../assets/images/courses/makeupPhoto2.JPG";
+import image3 from "../../assets/images/courses/makeupPhoto3.JPG";
+import image4 from "../../assets/images/courses/makeupPhoto4.JPG";
+import image5 from "../../assets/images/courses/makeupPhoto5.JPG";
+import image6 from "../../assets/images/courses/makeupPhoto6.JPG";
 
 const courses = [
   {
