@@ -42,7 +42,7 @@ const courses = [
   },
   {
     id: 5,
-    title: 'Курс по прическам "Актуальные тренды"',
+    title: 'Курс по прическам "HAIR PRO"',
     to: "/education/hairstyle_course",
     linkTitle: "Все о курсе",
     image: image5,
