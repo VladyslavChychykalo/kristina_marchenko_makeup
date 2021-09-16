@@ -8,9 +8,9 @@ import {
 } from "./Services.module.css";
 
 const services = [
-  { id: 1, service: "Макияж", price: "1000₴" },
-  { id: 2, service: "Прическа на сухие волосы", price: "1000₴" },
-  { id: 3, service: "Макияж + прическа", price: "1800₴" },
+  { id: 1, service: "Макияж", price: "1300₴" },
+  { id: 2, service: "Прическа на сухие волосы", price: "1300₴" },
+  { id: 3, service: "Макияж + прическа", price: "2000₴" },
   { id: 4, service: "Свадебный образ", price: "2800₴" },
   { id: 5, service: "Свадебный макияж", price: "1600₴" },
   { id: 6, service: "Свадебная прическа", price: "1600₴" },

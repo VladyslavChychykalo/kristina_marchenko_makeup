@@ -20,10 +20,7 @@ const Contacts = () => (
             Контактный номер: <a href="tel:+380970003090">(097)000-30-90</a>
           </p>
           <p>Почта: 309072@gmail.com</p>
-          <p>
-            Адрес: студия находится в 5-ти минутах от метро Печерская, ул.
-            Евгения Коновальца,36 е
-          </p>
+          <p>Адрес: улица Льва Толстого, 39.</p>
         </div>
         <SocialLinks />
         {/* <div className={mapWrapper}>
@@ -36,15 +33,16 @@ const Contacts = () => (
         </div> */}
         <iframe
           title="Google Maps"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2541.8885116657307!2d30.5338264!3d50.4245488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf119f87c289%3A0xde1620a2a1e69d5a!2z0YPQuy4g0JXQstCz0LXQvdC40Y8g0JrQvtC90L7QstCw0LvRjNGG0LAsIDM2LCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1589393294476!5m2!1sru!2sua"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.496967847581!2d30.500393694348944!3d50.441213617801886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef117b792e5%3A0x4ee320886adf7394!2z0YPQuy4g0JvRjNCy0LAg0KLQvtC70YHRgtC-0LPQviwgMzksINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1631814096739!5m2!1sru!2sua"
           width="100%"
           height="450"
           frameBorder="0"
           style={{ border: 0, marginTop: "20px" }}
-          allowFullScreen=""
+          allowfullscreen=""
           ariaHidden="false"
+          loading="lazy"
           tabIndex="0"
-        ></iframe>
+        />
       </div>
     </div>
   </>
